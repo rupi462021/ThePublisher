@@ -1,0 +1,1597 @@
+<rundown>
+  <show>
+    <show.title>HEBREW 3/14/2021 18:00</show.title>
+    <show.showId>667459075</show.showId>
+    <show.channelId>54702</show.channelId>
+    <show.typeId>211219305</show.typeId>
+    <show.start>2021-03-14 18:00:00.0</show.start>
+  </show>
+  <story>
+    <story.slugNo>1</story.slugNo>
+    <story.name>חלונות עם דובי</story.name>
+    <story.format>פתיח/CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264871</objId>
+        <name>SKIN:Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[שלום דובי, ותודה. עצם העניין, מתחילים.
+VTR IN 
+]]></story.script>
+    <story.storyId>667868163</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>פתיח בלי קלמן VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_opener_new_bli</objId>
+        <name>kl_vtr_opener_new_bli</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>262946</objId>
+        <name>SKIN:Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>262949</objId>
+        <name>WALL 2 OPEN</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>262950</objId>
+        <name>WALL 3 OPEN</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+
+]]></story.script>
+    <story.storyId>670617415</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>2</story.slugNo>
+    <story.name>פתיח עצם העניין VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_opener_new</objId>
+        <name>kl_vtr_opener_new</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667868164</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>3</story.slugNo>
+    <story.name>דברי פתיחה + זמן עבר + הבטחות - קלמן</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[שלום לכם, גם הערב, כמו בכל ערב, אנחנו פותחים עם חזרה אחורה בַּזמן. 
+WALL IN
+השבוע לפני 16 שנה הלך לעולמו אהוד מנור, חתן פרס ישראל לֶזמר עברי וּמִגדולי היוצרים שהיו כאן.
+VTR IN
+הערב בתוכנית: 
+WALL IN
+פרשת יהודה משי זהב עברה היום לִבֿדיקת המשטרה, נשאל את עורך הדין איתן להמן מה הסיכוי שהיא תתברר בַּמישור הפלילי. פנינה פויפר מנכלית ארגון הציבור החרדי הממלכתי תִשאל כאן איפה מנהיגי החרדים והאם עידן המי טו הגיע לַמגזר החרדי.
+CH WALL 
+שמואל רוזנר פרשננו ינתֶח עבורנו את סִקרי סוף השבוע, 
+CH WALL 
+וגם רועי קייס יספר על ראניה, פעילת הלהט"ב בתוניסיה, שהגיעה למשטרה להתלונן על הטרדות בשל נטייתה המינית וֶנכלאה לֶשישה חודשים. 
+WALL OUT 
+הפסקה של דקה וַאנחנו מתחילים. 
+]]></story.script>
+    <story.storyId>667868165</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>4</story.slugNo>
+    <story.name>WALL 1 - זמן עבר</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264869</objId>
+        <name>וול_עצם_העניין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264627</objId>
+        <name>וול_1_זמן_עבר_אהוד_מנור</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+]]></story.script>
+    <story.storyId>667868166</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>5</story.slugNo>
+    <story.name>16 שנים למותו של אהוד מנור VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_ehud_manor_140321</objId>
+        <name>kl_vtr_ehud_manor_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264673</objId>
+        <name>TICKER_KATAVA:זמן עבר/השבוע לפני 16 שנים הלך לעולמו אהוד מנור, מגדולי הפזמונאים והמשוררים הישראלים</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670501499</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>6</story.slugNo>
+    <story.name>WALL 1 - הבטחה 1 - יהודה משי זהב</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264628</objId>
+        <name>וול_1_הבטחה_משי_זהב</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670516602</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>7</story.slugNo>
+    <story.name>WALL 1 - הבטחה 2 - פתקי הצבעה</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264625</objId>
+        <name>וול_2_פתקי_הצבעה</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670501500</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>8</story.slugNo>
+    <story.name>WALL 1 - הבטחה 3</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264809</objId>
+        <name>וול_1_הבטחה_ראניה</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670501501</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>9</story.slugNo>
+    <story.name>יציאה לברייק זהב</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868168</story.storyId>
+    <story.planDur>0:12</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>10</story.slugNo>
+    <story.name>יציאה לברייק זהב VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_Gold_brake_131220</objId>
+        <name>kl_vtr_Gold_brake_131220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[נֶצא עכשיו לֶהפסקה של דקה בֶּדִיוק. כבר חוזרים.
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>667868169</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>חזרה מברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_back_tokey_clean_101220</objId>
+        <name>kl_vtr_back_tokey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670617416</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>12</story.slugNo>
+    <story.name>חזרה מברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_back_tokey_clean_101220</objId>
+        <name>kl_vtr_back_tokey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868171</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>13</story.slugNo>
+    <story.name>העדויות נגד משי זהב</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264639</objId>
+        <name>STRIP:/העדויות נגד משי זהב/תחקיר "הארץ": עדויות נגד יו"ר זק"א על פגיעה מינית בילדים, בנוער ובנשים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264640</objId>
+        <name>STRIP:/העדויות נגד משי זהב/בעקבות חשיפת הטענות על עבירות מין לכאורה: יו"ר זק"א ויתר על פרס ישראל/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264636</objId>
+        <name>STRIP:/העדויות נגד משי זהב /צביקי פליישמן, ארגון "מגן": "יש 10 עדויות חדשות, על חלקן אין התיישנות"/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264600</objId>
+        <name>SUPER_KATAVIM:עו"ד איתן להמן/מתמחה במשפט פלילי ובייצוג נפגעי עבירה//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264604</objId>
+        <name>SUPER_KATAVIM:פנינה פויפר/מנכ"לית ארגון הציבור החרדי ממלכתי//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264588</objId>
+        <name>STRIP:/העדויות נגד משי זהב//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[שלום לעורך הדין איתן להמן, מתמחה בַּמשפט הפלילי וּבֿייצוג נפגֶעי עבירה
+וְלפֿנינה פויפר, מנכ"לית ארגון הציבור החרדי ממלכתי
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667868172</story.storyId>
+    <story.planDur>0:07</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>14</story.slugNo>
+    <story.name>WALL 2 - יהודה משי זהב</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264630</objId>
+        <name>וול_2_משי_זהב</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>667868173</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>15</story.slugNo>
+    <story.name>WALL 3 - אילוסטרציה - רגליים של ילדה</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264631</objId>
+        <name>וול_3_אילוסטרציה</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670549813</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>16</story.slugNo>
+    <story.name>אולפן ירושלים - עו"ד איתן להמן</story.name>
+    <story.format>אולפן</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868174</story.storyId>
+    <story.planDur>9:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>17</story.slugNo>
+    <story.name>אולפן ירושלים - פנינה פוייפר</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>667868175</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>18</story.slugNo>
+    <story.name>יהודה משי זהב - כללי VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>m_vo_meshi_zahav_120321</objId>
+        <name>m_vo_meshi_zahav_120321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549834</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>19</story.slugNo>
+    <story.name>משי זהב מדליק משואה VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_meshi_mesua_140321</objId>
+        <name>ee_vo_meshi_mesua_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549835</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>20</story.slugNo>
+    <story.name>משי זהב וגלנט - הודעה על פרס ישראל VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_meshi_pras_020321</objId>
+        <name>ee_vo_meshi_pras_020321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549836</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>21</story.slugNo>
+    <story.name>9 ימים לבחירות</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264449</objId>
+        <name>STRIP:/9 ימים לבחירות /סער נגד נתניהו: "אדם שאנשיו מפוצצים באלימות כנסים של אחרים הוא פחדן"/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264447</objId>
+        <name>STRIP:/9 ימים לבחירות /סגן השר מאיר פרוש על ח"כ ליברמן: "ביקור באברבנאל לא יזיק לו" /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264445</objId>
+        <name>STRIP:/9 ימים לבחירות /ליברמן: "את החרדים יחד עם ביבי – על מריצה אחת למזבלה טובה"/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264493</objId>
+        <name>STRIP:/9 ימים לבחירות/נתניהו: "אין לי בעיה שתצביעו גם לציונות הדתית של סמוטריץ'. הם איתנו"/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264492</objId>
+        <name>SUPER_KATAVIM:מיכאל שמש/כתב פוליטי Michaels@kan.org.il//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264443</objId>
+        <name>STRIP:/9 ימים לבחירות //Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[תשעה ימים לבֶּחירות והמוֹעוֹמדים לכנסת עושים מאמצים אַחַרונים
+WIN IN
+מיכאל שמש, היום לִוְעידת עיתון "בשבע", הִגיע גם ראש הממשלה נתניהו 
+LIVE IN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667868176</story.storyId>
+    <story.planDur>0:08</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>22</story.slugNo>
+    <story.name>אולפן ירושלים - אולפן רדיו - מיכאל שמש</story.name>
+    <story.format>אולפן</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868178</story.storyId>
+    <story.planDur>5:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>23</story.slugNo>
+    <story.name>נתניהו נואם בכנס בשבע VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_bibi_today_140321</objId>
+        <name>ee_vo_bibi_today_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549873</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>24</story.slugNo>
+    <story.name>תקיפה של פעילי תקווה חדשה מאתמול VO</story.name>
+    <story.format>VO/LIVE</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>00_vo_tkifa_likud_130321</objId>
+        <name>00_vo_tkifa_likud_130321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670595816</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>25</story.slugNo>
+    <story.name>סמוטריץ ובן גביר VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_smotrich_bengvir_140321</objId>
+        <name>ee_vo_smotrich_bengvir_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549874</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>26</story.slugNo>
+    <story.name>אביגדור ליברמן - כללי VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_liberman_kisui_140321</objId>
+        <name>ee_vo_liberman_kisui_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549875</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>27</story.slugNo>
+    <story.name>שרים וחברי כנסת חרדים - כללי VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_haredim_keneset_140321</objId>
+        <name>ee_vo_haredim_keneset_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549876</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>28</story.slugNo>
+    <story.name>כנס הבחירות של גדעון סער מאתמול VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_kenes_saar_140321</objId>
+        <name>ee_vo_kenes_saar_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549877</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>29</story.slugNo>
+    <story.name>תומכי ליכוד מפריעים לכנס VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_likud_hafarot_140321</objId>
+        <name>ee_vo_likud_hafarot_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549878</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>30</story.slugNo>
+    <story.name>נתניהו ויוסי כהן - ארכיון VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_yosi_bibi_yahad_140321</objId>
+        <name>ee_vo_yosi_bibi_yahad_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549879</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>31</story.slugNo>
+    <story.name>ראש המוסד יוסי כהן VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_yosi_musad_kisui_140321</objId>
+        <name>ee_vo_yosi_musad_kisui_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670549880</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>32</story.slugNo>
+    <story.name>תורת המספרים</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264643</objId>
+        <name>STRIP:/תורת המספרים/מהו הדמיון ומהו השוני בין שלושת ראשי המפלגות לפיד, סער ובנט?/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264556</objId>
+        <name>STRIP:/תורת המספרים/הדברן, העסקן והמהפכן: מהן תכונות האופי המייצגות את שלושת ראשי המפלגות?/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264472</objId>
+        <name>SUPER_KATAVIM:שמואל רוזנר/פרשן כאן חדשות//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264471</objId>
+        <name>STRIP:/תורת המספרים//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[שלום לִשמואל רוזנר, פרשן כאן חדשות
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667868188</story.storyId>
+    <story.planDur>0:02</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>33</story.slugNo>
+    <story.name>WALL 2 - פרצופי מנהיגים</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264451</objId>
+        <name>וול_2_פרצופי_מנהיגים</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>667868189</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>34</story.slugNo>
+    <story.name>WALL 3 - פרצופי מנהיגים</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264453</objId>
+        <name>וול_3_פרצופי_מנהיגים</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670516603</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>35</story.slugNo>
+    <story.name>אולפן ירושלים - שמואל רוזנר</story.name>
+    <story.format>אולפן</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868190</story.storyId>
+    <story.planDur>7:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>36</story.slugNo>
+    <story.name>מדד סקרים CG</story.name>
+    <story.format>פתיח/CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264510</objId>
+        <name>פול פריים. המדד</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670516632</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>37</story.slugNo>
+    <story.name>יאיר לפיד VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>16_vo_lapid_kisui_080321</objId>
+        <name>16_vo_lapid_kisui_080321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670528170</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>38</story.slugNo>
+    <story.name>גדעון סער VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_gidon_kisui_010321</objId>
+        <name>ee_vo_gidon_kisui_010321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670528171</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>39</story.slugNo>
+    <story.name>בנט VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_benet_kisui_140221</objId>
+        <name>ee_vo_benet_kisui_140221</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670528172</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>40</story.slugNo>
+    <story.name>קלפיות VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>20_VO_KALPIYOT_290121</objId>
+        <name>20_VO_KALPIYOT_290121</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670595808</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>41</story.slugNo>
+    <story.name>קלפיות חדש VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_kalfi_new_080321</objId>
+        <name>ee_vo_kalfi_new_080321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670595809</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>42</story.slugNo>
+    <story.name>יציאה לברייק</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264675</objId>
+        <name>STRIP:/מייד: גאווה מאחורי הסורגים//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[יוצאים לַהפסקה קצרה וֶאחרונה וֶאחריה - רועי קייס על הפֶּעילה הלהט"בית מתוניסיה שנכנסה לַכּלא כי התלוננה על גברים שמטרידים אותה
+VTR IN]]></story.script>
+    <story.storyId>667868184</story.storyId>
+    <story.planDur>0:08</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>יציאה לברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_out_fromkey_clean_101220</objId>
+        <name>kl_vtr_out_fromkey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670617418</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>חזרה מברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_back_tokey_clean_101220</objId>
+        <name>kl_vtr_back_tokey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670617417</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>46</story.slugNo>
+    <story.name>גאווה מאחורי הסורגים</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264711</objId>
+        <name>STRIP:/גאווה מאחורי הסורגים/תוניסיה: הומוסקסואליות – עבירה פלילית; הפגנות למען להט"ב – חוקי /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264709</objId>
+        <name>STRIP:/גאווה מאחורי הסורגים/תוניסיה: מאות הפגינו למען ראניה שנכלאה לאחר שהתלוננה על הטרדות מיניות /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264702</objId>
+        <name>STRIP:/גאווה מאחורי הסורגים/תוניסיה: ראניה התלוננה על הטרדות מיניות בשל נטייתה המינית – ונכלאה/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264680</objId>
+        <name>SUPER_KATAVIM:רועי קייס/כתב העולם הערבי Roika@kan.org.il//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264676</objId>
+        <name>STRIP:/גאווה מאחורי הסורגים//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[שלום רועי קייס. אצלנו המאבק לשיוויון זכויות של קהילת הלהט"ב בעיצומו, בתוניסיה - זה קצת אחרת. 
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667868180</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>47</story.slugNo>
+    <story.name>WALL 2 - נושא</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264810</objId>
+        <name>וול_2_ראניה</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>667868181</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>48</story.slugNo>
+    <story.name>WALL 3 - נושא</story.name>
+    <story.format>CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264811</objId>
+        <name>וול_3_תומכים_בראניה</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>670516701</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>49</story.slugNo>
+    <story.name>אולפן ירושלים - רועי קייס</story.name>
+    <story.format>אולפן</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868182</story.storyId>
+    <story.planDur>5:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>50</story.slugNo>
+    <story.name>הפעילה הלהטבית בתוניסיה VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_activist_140321</objId>
+        <name>kl_vo_activist_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539050</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>51</story.slugNo>
+    <story.name>1 הסרטון שהביא למעצרה SYNC</story.name>
+    <story.format>פתיח/גרפיקה/SYNC/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_sync_rania_140321</objId>
+        <name>kl_sync_rania_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264724</objId>
+        <name>SUPER_KATAVIM:ראניה אל-עמדוני/פעילת זכויות להט"ב תוניסאית שנעצרה//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((את הפתיח וסטרייפ ראשון יש להזין כאן!))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670539051</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>52</story.slugNo>
+    <story.name>כללי מהפגנה למענה בתוניסיה VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_protest_activist_140321</objId>
+        <name>kl_vo_protest_activist_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539052</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>53</story.slugNo>
+    <story.name>2 שיוצא נגד גזר הדין שלה SYNC</story.name>
+    <story.format>פתיח/גרפיקה/SYNC/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_sync_hamza_140321</objId>
+        <name>kl_sync_hamza_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264726</objId>
+        <name>SUPER_KATAVIM:חמזה אל-ג'רידי/פעיל זכויות אדם תוניסאי//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264725</objId>
+        <name>SUPER_KATAVIM:ההפגנות נגד גזר הדין של ראניה/תוניס , השבוע//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((את הפתיח וסטרייפ ראשון יש להזין כאן!))
+
+
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670539053</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>54</story.slugNo>
+    <story.name>מוניר בעתור, המועמד לנשיאות תוניסיה ההומוסקסואל VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_munir_baatur_140321</objId>
+        <name>kl_vo_munir_baatur_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539054</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>56</story.slugNo>
+    <story.name>הבחור מהריאיון שלנו VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_the_guy_140321</objId>
+        <name>kl_vo_the_guy_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539056</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>57</story.slugNo>
+    <story.name>סינק של הבחור SYNC</story.name>
+    <story.format>פתיח/גרפיקה/SYNC/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_sync_beaten_140321</objId>
+        <name>kl_sync_beaten_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264727</objId>
+        <name>SUPER_KATAVIM:יובה/פעיל בקהילה הגאה במרוקו בשיחה עם כאן חדשות//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((את הפתיח וסטרייפ ראשון יש להזין כאן!))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670539057</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>58</story.slugNo>
+    <story.name>מלך מרוקו VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_morocco_king_140321</objId>
+        <name>kl_vo_morocco_king_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539058</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>59</story.slugNo>
+    <story.name>כללי להט"ב במזרח התיכון VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_lebanon_lgbt_140321</objId>
+        <name>kl_vo_lebanon_lgbt_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539059</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>60</story.slugNo>
+    <story.name>סינק של הבחור2 SYNC</story.name>
+    <story.format>פתיח/גרפיקה/SYNC/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_sync_islam_140321</objId>
+        <name>kl_sync_islam_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264728</objId>
+        <name>SUPER_KATAVIM:יובה/פעיל בקהילה הגאה במרוקו בשיחה עם כאן חדשות//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((את הפתיח וסטרייפ ראשון יש להזין כאן!))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670539060</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>61</story.slugNo>
+    <story.name>פרידה: טקסט ורולר</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264874</objId>
+        <name>ROLLER:</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>220460</objId>
+        <name>ROLLER:</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>220475</objId>
+        <name>ROLLER:רולר 2 - קלמן</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>220472</objId>
+        <name>ROLLER:רולר 3 - קלמן</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[סיימנו. מחר יהיה כאן קלמן ליבסקינד. 
+WIN IN
+עכשיו העולם היום עם גילי כהן. שלום גילי
+((
+עורך: עמית וינטר
+מפיקה : בטי פייברג
+עורך משנה: עידו דה פאס
+תחקיר: גל לנדאו
+עורך וידיאו: 
+
+
+
+
+
+
+
+
+))]]></story.script>
+    <story.storyId>667868193</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>62</story.slugNo>
+    <story.name>רולר</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((עורך: עמית וינטר
+מפיקה:
+בטי פייברג
+במאי: 
+
+
+עורך משנה: עידו דה פאס
+תחקירן: גל לנדאו
+עורך וידאו: 
+גרפיקה: עוז גנור
+
+ע. במאי: 
+הלבשה: דניאלה שנברון
+שיער: יובל אלמוג
+מאפרת: 
+מפקח שידור:
+))]]></story.script>
+    <story.storyId>667868194</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>63</story.slugNo>
+    <story.name>סגיר עצם העניין VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_sagir_new</objId>
+        <name>kl_vtr_sagir_new</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667868195</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>43</story.slugNo>
+    <story.name>יציאה לברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_out_fromkey_clean_101220</objId>
+        <name>kl_vtr_out_fromkey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868185</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>45</story.slugNo>
+    <story.name>חזרה מברייק VTR</story.name>
+    <story.format>VTR/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vtr_back_tokey_clean_101220</objId>
+        <name>kl_vtr_back_tokey_clean_101220</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667868187</story.storyId>
+    <story.planDur>0:05</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>18</story.slugNo>
+    <story.name>יהודה משי זהב VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670549815</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>39</story.slugNo>
+    <story.name>בחירות כללי VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>670549837</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>55</story.slugNo>
+    <story.name>מרוקו להט"ב VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kl_vo_lgbt_morocco_140321</objId>
+        <name>kl_vo_lgbt_morocco_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670539055</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+</rundown>

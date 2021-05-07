@@ -1,0 +1,121 @@
+<rundown>
+  <show>
+    <show.title>HEBREW 3/15/2021 00:00</show.title>
+    <show.showId>667459092</show.showId>
+    <show.channelId>54702</show.channelId>
+    <show.typeId>773303</show.typeId>
+    <show.start>2021-03-15 00:00:00.0</show.start>
+  </show>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>פתיח מבזק</story.name>
+    <story.format>VTR</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>mivzak_vtr_opener_new</objId>
+        <name>mivzak_vtr_opener_new</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>158567</objId>
+        <name>SKIN:MivzakMosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>158571</objId>
+        <name>PROG_NAME:מבזק//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>90525</objId>
+        <name>SUPER_PHONE:תיעוד מרשתות חברתיות, שימוש לפי סעיף 27א'/לחוק זכויות יוצרים; לפניות: zcuyot@kan.org.il//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+]]></story.script>
+    <story.storyId>667984858</story.storyId>
+    <story.planDur>0:10</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>New story - VO</story.name>
+    <story.format>פתיח/גרפיקה/VO/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((לכתוב את הטקסט כאן))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>667984859</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>New story - SYNC</story.name>
+    <story.format>פתיח/גרפיקה/SYNC/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח וסטרייפ ראשון יש להזין כאן!))
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+]]></story.script>
+    <story.storyId>667984860</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>New story - LIVE</story.name>
+    <story.format>פתיח/גרפיקה/LIVE/LIVE/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667984861</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>סגיר מבזק</story.name>
+    <story.format>פתיח/VTR</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>mivzak_vtr_sagir_new</objId>
+        <name>mivzak_vtr_sagir_new</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[עד כאן המבזק. אנחנו מזמינים אתכם להמשיך להתעדכן 24 שעות ביממה ביישומון של כאן - שם תוכלו למצוא את כל הדיווחים, הפרשנויות, הכתבות, ומהדורות הרדיו והטלוויזיה בשידור חי. לילה טוב ושבת שלום.
+
+]]></story.script>
+    <story.storyId>667984862</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+</rundown>

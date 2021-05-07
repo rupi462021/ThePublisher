@@ -1,0 +1,2240 @@
+<rundown>
+  <show>
+    <show.title>HEBREW 3/14/2021 19:15</show.title>
+    <show.showId>667459081</show.showId>
+    <show.channelId>54702</show.channelId>
+    <show.typeId>538587705</show.typeId>
+    <show.start>2021-03-14 19:15:00.0</show.start>
+  </show>
+  <story>
+    <story.slugNo>1</story.slugNo>
+    <story.name>טור פתיחה VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901023</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>2</story.slugNo>
+    <story.name>אות פתיחה חדש משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_Opener_N_CTK</objId>
+        <name>kis_vtr_Opener_N_CTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901024</story.storyId>
+    <story.planDur>0:09</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>3</story.slugNo>
+    <story.name>כותרות - 5 דברים שחשוב לדעת היום</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[
+]]></story.script>
+    <story.storyId>667901026</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>4</story.slugNo>
+    <story.name>טקסט וגרפיקה: כותרות</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264958</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264955</objId>
+        <name>STRIP:/חזרת המסיבות//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>68802</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL_SOURCE</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>90525</objId>
+        <name>SUPER_PHONE:תיעוד מרשתות חברתיות, שימוש לפי סעיף 27א'/לחוק זכויות יוצרים; לפניות: zcuyot@kan.org.il//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>68797</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL_LOGO</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>165903</objId>
+        <name>SKIN:Mosart=L|M|S סקין משחקי הכיס</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>165911</objId>
+        <name>SIGN_LANG:חלון שפת סימנים</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[היי אני ליאל קייזר ואתם על משחקי הכיס, בעוד 9 ימים כולנו נלך לקלפי ואז יתחיל הבלגן האמיתי - ערפל הקמפיינים יתפזר והממשלה החדשה שתקום אחריהן, אם תקום תצטרך להתמודד עם מאות אלפי מובטלים, עם מודל חלת שמתמרץ הישארות בבית ועם הנסיון להמריץ את הכלכלה שלנו - בינתיים אנחנו מתחילים שבוע אחרון של הבטחות שלא לומר הבטחות סרק.. תחזיקו חזק בקרוב הקמפיין הזה יהיה מאחורינו - 
+הערב בתכנית:
+VO + ST IN
+
+נדבר על הפעימה הבאה לִפְֿתיחת המשק - המועדונים אמורים לחזור לפְעילות בעוד שבוע בדיוק - האם באמת כדאי להם לפתוח ואיך זה אמור לעבוד? עומר עוז מבעלי קבוצת הנוקס יהיה איתנו
+CH
+
+נהייה עם תשתיות האינטרנט הכושלות שלנו ועם ההשקה של שירות הסיבים של בזק היום סוף סוף אחרי שנים של המתנה - מנכ"ל החברה דודו מזרחי יהיה איתנו.
+OUT 
+נדבר גם על הבנק הדיגיטלי הראשון ועל מה שהקורונה עשתה לגיוס העובדים בהייטק 
+אבל קודם הינה חמישה דברים כלכליים שקרו היום ורק רצינו לוודא שלא פספסתם
+VTR IN
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667901027</story.storyId>
+    <story.planDur>1:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>5</story.slugNo>
+    <story.name>ברים סגורים VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_barim_090321</objId>
+        <name>kis_vo_barim_090321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901028</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>6</story.slugNo>
+    <story.name>פריסת סיבים VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_prisat_sivim_140321</objId>
+        <name>kis_vo_prisat_sivim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901029</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>7</story.slugNo>
+    <story.name>חמישה דברים VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_5dvarim_140321</objId>
+        <name>kis_vtr_5dvarim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>670484458</story.storyId>
+    <story.planDur>2:13</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>8</story.slugNo>
+    <story.name>מרואיין באולפן בענייני היום \\ סטרייפים</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))
+
+
+
+]]></story.script>
+    <story.storyId>667901047</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>9</story.slugNo>
+    <story.name>עומר עוז מכיכר רבין LIVE</story.name>
+    <story.format>LIVE/גרפיקה/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264992</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: עדיין לא יודעים איך ייראה מתווה הפתיחה /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>265003</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: אנחנו לא מפחדים משיימינג של מתנגדי החיסונים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264994</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מויעדונים וברים: לא הגיוני שאולמות אירועים ייפתחו ואנחנו לא/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>265001</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: ברגע שנחזור לעבוד – הרבה מתנגדי חיסונים ילכו להתחסן/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264999</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: פתחנו רק מסעדה אחת כי העובדים לא רוצים לחזור לעבודה/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264998</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: מתקשרים לעובדים שיחזרו לעבוד והם לא רוצים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264995</objId>
+        <name>STRIP:/חזרת המסיבות/בעל קבוצת מועדונים וברים: מתכוון לפתוח בראשון את כל העסקים שבבעלותי/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264881</objId>
+        <name>STRIP:/חזרת המסיבות/ריאיון עם עומר עוז, בעלים של קבוצת 'נוקס' על חזרת המועדונים והברים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264870</objId>
+        <name>STRIP:/חזרת המסיבות//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264816</objId>
+        <name>SUPER_KATAVIM:עומר עוז /בעלים של קבוצת הברים והמועדונים נוקס//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[אז עם הירידה בתחלואה גם ההקלות נמשכות - שר הבריאות יולי אדלשטיין נפגש היום עם ראשי איגוד הברים והמועדנים וסיכם איתם כי המועדונים ייפתחו בפעימת ההקלות הקרובה, לפי הנחיות התו הירוק. כאשר ההערכות הן שכבר בראשון הקרוב המועדונים ייפתחו.  בואו נגיד שלום לעומר עוז, מבעלי קבוצת הברים והמועדונים NOX, עומר אתה כבר יודע איך המתווה צפוי להיראות?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667901048</story.storyId>
+    <story.planDur>5:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>10</story.slugNo>
+    <story.name>מסיבות בפורים VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>ee_vo_purim_party_250221</objId>
+        <name>ee_vo_purim_party_250221</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+
+
+]]></story.script>
+    <story.storyId>667901049</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>11</story.slugNo>
+    <story.name>ברים סגורים VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_barim_090321</objId>
+        <name>kis_vo_barim_090321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670608788</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>12</story.slugNo>
+    <story.name>הופעות במקומות סגורים בקורונה VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_hofaot_korona_140321</objId>
+        <name>kis_vo_hofaot_korona_140321,render</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670608790</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>13</story.slugNo>
+    <story.name>מסעדות פתוחות VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>20_vo_bate_kafe_070321</objId>
+        <name>20_vo_bate_kafe_070321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670608791</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>14</story.slugNo>
+    <story.name>יולי אדלשטיין VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_edelshtein_kisui_140321</objId>
+        <name>kis_vo_edelshtein_kisui_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670608792</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>15</story.slugNo>
+    <story.name>ברייק ראשון</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>68807</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL_SOURCE</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>68806</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL_LOGO</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))
+
+
+
+
+]]></story.script>
+    <story.storyId>667901040</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>16</story.slugNo>
+    <story.name>הבנק הדיגיטלי VO</story.name>
+    <story.format>VO/פתיח</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_digital_bank_140321</objId>
+        <name>kis_vo_digital_bank_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264873</objId>
+        <name>STRIP:/מייד: הסוף לאינטרנט האיטי?//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264872</objId>
+        <name>STRIP:/מייד: בנקאות על ענן//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[נצא עכשיו להפסקה קצרה, ואחריה
+VO+ST IN
+
+הבנק הדיגיטלי הראשון בישראל התחיל היום תקופת הרצה. יושב הראש שלו יהיה כאן כדי לנסות ולהסביר מה ההבדל בינם לבין בנקים אחרים.
+CROSS VO
+
+וגם - בזק השיקה את תשתיות הסיבים שלה רק היום. נבין למה זה קורה רק היום.
+הפסקה קצרה, מייד חוזרים: 
+CROSS VTR]]></story.script>
+    <story.storyId>667901041</story.storyId>
+    <story.planDur>0:20</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>17</story.slugNo>
+    <story.name>פריסת סיבים VO</story.name>
+    <story.format>פתיח/VO</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_prisat_sivim_140321</objId>
+        <name>kis_vo_prisat_sivim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901042</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>18</story.slugNo>
+    <story.name>תחזית + חסויות VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_tahzit_140321</objId>
+        <name>kis_vtr_tahzit_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>670549849</story.storyId>
+    <story.planDur>0:50</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>19</story.slugNo>
+    <story.name>ברייק</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901044</story.storyId>
+    <story.planDur>2:26</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>20</story.slugNo>
+    <story.name>חזרה מברייק VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_wiper_CTK</objId>
+        <name>Kis_vtr_wiper_CTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901045</story.storyId>
+    <story.planDur>0:03</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>21</story.slugNo>
+    <story.name>כתבה אקטואלית</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))
+
+
+]]></story.script>
+    <story.storyId>667901037</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>22</story.slugNo>
+    <story.name>וול:</story.name>
+    <story.format>פתיח/CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264925</objId>
+        <name>KIS_GAMES_EXPLAINER_BIG:מגפת הנדלן</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[ועכשיו קצת נדלן - מנתונים שמתפרסמים היום נראה שהמשקיעים חזרו אל שוק הנדלן - במקביל ענף הבנייה לִמגורים מראה סימנים של הֶאטה אבל הרבה פחות חמורה מזוֹ שהקבלנים הִזהירו מפניה . על מגפת הנדל"ן בשעת מגפת הקורונה בכתבה שהכנו:
+VTR IN]]></story.script>
+    <story.storyId>670484460</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>23</story.slugNo>
+    <story.name>כתבה אקטואלית VTR</story.name>
+    <story.format>גרפיקה/VTR</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_nadlan_140321</objId>
+        <name>kis_vtr_nadlan_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264932</objId>
+        <name>SUPER_KATAVIM:מגפת הנדל"ן/המשקיעים חזרו ורוכשי הדירות לא נטשו את שוק הנדל"ן בקורונה//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script></story.script>
+    <story.storyId>667901038</story.storyId>
+    <story.planDur>3:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>24</story.slugNo>
+    <story.name>פינה יומית מתחלפת</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901067</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>25</story.slugNo>
+    <story.name>שוקי אורן יו"ר הבנק הדיגיטלי VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_liel_shuki_140321</objId>
+        <name>kis_vtr_liel_shuki_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264916</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: אנשים לא עברו בנק עד כה כי לא הייתה להם אלטרנטיבה /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264912</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: שירותינו יעילים לרוב הציבור שנאבק בהתנהלות הפיננסית /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264905</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: משבר הקורונה הכניס עוד אוכלוסיות לדיגיטל /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264902</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: הגיל הוא יחסי – גם מבוגרים יותר יכולים לעבור לדיגיטל /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264900</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: השירות האישי שלנו יתבסס על טכנולוגיות בינה מלאכותית /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264922</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: דרכי הפעולה שלנו שונים לחלוטין ממה שאנחנו מכירים היום/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264897</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: נהיה בנק זול אבל לא נוביל את מהפכת המחירים /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264896</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: מראש מתחילים במערכת בנקאית יעילה מאוד/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264895</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: בישראל – גם אם אתה לא הולך לסניף הבנק, אתה משלם עליו /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264894</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: יוצאים עם מגוון השירותים – העברות, צ'קים וניירות ערך/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264893</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: השגנו את התשתיות ויש לנו מערכות מחשוב כמו לכל בנק/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264892</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: לא קל לקבל רישיון בנקאי, הרגולציה בישראל קשה מאוד /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264891</objId>
+        <name>STRIP:/בנקאות על ענן/יו"ר הבנק הדיגיטלי: לא סתם לא קמו בישראל בנקים חדשים יותר מ-40 שנה /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264819</objId>
+        <name>STRIP:/בנקאות על ענן/ריאיון עם שוקי אורן, יו"ר הבנק הדיגיטלי על תחילת פעילות הבנק /Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264817</objId>
+        <name>STRIP:/בנקאות על ענן//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264500</objId>
+        <name>SUPER_KATAVIM:שוקי אורן/יו"ר הבנק הדיגיטלי//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((אחרי יותר מ-40 שנה שבהן לא הוקם כאן בנק חדש היום זה קרה - הבנק הדיגיטלי - המיזם השאפתני של פרופסור אמנון שעשוע, מייסד ומנכ"ל חברת מובילאיי, יוצא לדרך, בהתחלה כפיילוט – ללא סניפים ועם דגש על טכנולוגיות חדשות. מה זה אומר? והאם כדאי לנו להצטרף למהפכה? בואו נגיד שלום לשוקי אורן, יושב ראש הבנק:
+מה כולל הפיילוט? למה פיילוט ולא עלייה לאוויר? 
+איך העובדה שהבנק דיגיטלי אמורה להשפיע? אתם מדברים על "בנקאות חדשנית" מה זה אומר פרקטית? 
+איך זה יבוא לידי ביטוי עבורי כלקוחה שמנהלת חשבון עובר ושב פשוט? זה אומר שוויתרתם על לקוחות מבוגרים?
+אנחנו רואים שהישראלים לא באמת עוברים בנק - בערך 4% בשנה - מה הסיכוי שיעברו אליכם?
+הבנקים הגדולים מקדמים פעילות בדיגיטל - ללאומי יש את פפר, הפועלים ודיסקונט מקדמים פעילות בתחום - אתה לא חושש שידחקו אתכם החוצה?))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667901068</story.storyId>
+    <story.planDur>6:49</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>26</story.slugNo>
+    <story.name>מושג/ אקספלנר קטן</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))
+
+
+]]></story.script>
+    <story.storyId>667901055</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>27</story.slugNo>
+    <story.name>אות מעבר VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_wiper_KTK</objId>
+        <name>kis_vtr_wiper_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901056</story.storyId>
+    <story.planDur>0:03</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>28</story.slugNo>
+    <story.name>אקספליינר סיבים VTR</story.name>
+    <story.format>VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_exp_sivim_140321</objId>
+        <name>kis_vtr_exp_sivim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[
+]]></story.script>
+    <story.storyId>667901057</story.storyId>
+    <story.planDur>3:18</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>29</story.slugNo>
+    <story.name>ראיון מרכזי</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))]]></story.script>
+    <story.storyId>667901059</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>30</story.slugNo>
+    <story.name>ריאיון מנכל בזק VTR</story.name>
+    <story.format>VTR/גרפיקה/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_liel_bezek_140321</objId>
+        <name>kis_vtr_liel_bezek_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264864</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: אם הרגולציה הייתה מידתית היינו מסיימים לפרוס את התשתיות לפני 5 שנים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264863</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: בזק פועלת תחת רגולציה כבדה, לא מוצדקת שגורמת להרבה נזק
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264862</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: תוך שנתיים רוב האזרחים יהנו מתשתיות הסיבים האופטיים של בזק
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264860</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: בסוף השנה 40% מהאזרחים יוכלו להנות מתשתיות הסיבים האופטיים
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264857</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: אנחנו פורסים בקצב של 4% מהאוכלוסייה לחודש
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264856</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: לא נגיע לאחרון היישובים בישראל עם הקמת תשתית האינטרנט/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264853</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: היינו מחוייבים לפרוס תשתיות
+ גם באזורים שלא צריכים - כמו ריכוזים חרדיים/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264847</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: באזורים שאליהם לא נגיע – המדינה תגיע ותפרוס תשתיות בעצמה/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264845</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: מבין את החשש שהמהלך יעמיק את הפערים בין הפריפריה למרכז
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264841</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: כל אחד יכול לבדוק מתי הוא יוכל להתחבר לתשתית הסיבים האופטיים
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264840</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: פורסים בקצב של 100 אלף משקי בית בחודש
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264837</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: פורסים בכל הארץ במקביל, מתחילים לפרוס במקומות עם בנייה רוויה
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264836</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: בהתחלה ניתן שתי אפשרויות למהירויות הגלישה
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264835</objId>
+        <name><![CDATA[STRIP:/הסוף לאינטרנט האיטי?/מנכ"ל בזק: החל ממחר נוכל להשיק את השירותים של הסיבים האופטיים
+/Mosart=L|M|S]]></name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264814</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?/ריאיון עם דודו מזרחי מנכ"ל בזק, על השקת רשת הסיבים האופטיים/Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264813</objId>
+        <name>STRIP:/הסוף לאינטרנט האיטי?//Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264505</objId>
+        <name>SUPER_KATAVIM:דודו מזרחי /מנכ"ל בזק //Mosart=L|M|S</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>667901060</story.storyId>
+    <story.planDur>6:17</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>31</story.slugNo>
+    <story.name>טקסט סיום</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>95119</objId>
+        <name>ROLLER:רולר 2 כיס</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>85943</objId>
+        <name>ROLLER:ערבערב_3</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>93537</objId>
+        <name>ROLLER:רורל 1 - משחקי הכיס</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>165911</objId>
+        <name>SIGN_LANG:חלון שפת סימנים</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230857</objId>
+        <name>ROLLER:זכויות</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+ 
+
+ 
+ 
+
+
+]]></story.script>
+    <story.storyId>667901071</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>32</story.slugNo>
+    <story.name>בלוק סיום VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_sium_140321</objId>
+        <name>kis_vtr_sium_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264595</objId>
+        <name>KIS_GAMES_EXPLAINER_BIG:ליאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[((עד כאן משחקי הכיס להיום, תודה רבה שבחרתם לצפות בנו.
+רגע לפני סיום - חשוב לנו שתדעו שיש לנו עמוד פייסבוק חדש. חפשו אותנו - קוראים לנו בפייסבוק "כאן כלכלי"  - ואנחנו נשמח שתעשו לנו לייק. זה יאפשר לכם לראות את כל התכנים שלנו, לשתף עם חברים, וגם לכתוב לנו תגובות! 
+אנחנו נהיה כאן גם מחר, באותה השעה בדיוק
+cam
+כעת אתם מוזמנים ומוזמנות להישאר לחדשות הערב עם דוריה למפל. ערב טוב דוריה))
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>667901072</story.storyId>
+    <story.planDur>5:50</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>56</story.slugNo>
+    <story.name>ראיון חוץ \\ סטרייפים</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))]]></story.script>
+    <story.storyId>667901076</story.storyId>
+    <story.planDur>0:12</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>57</story.slugNo>
+    <story.name>מרואיין \\ תזמון IFB</story.name>
+    <story.format>VTR</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901077</story.storyId>
+    <story.planDur>3:30</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>58</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901078</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>59</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901079</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>49</story.slugNo>
+    <story.name>פתיח חדש - מבזק VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>mivzak_vtr_opener_new</objId>
+        <name>mivzak_vtr_opener_new</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901080</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>50</story.slugNo>
+    <story.name>פתיח משחקי הכיס עם קי VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_Opener_CTK</objId>
+        <name>kis_vtr_Opener_CTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901081</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>51</story.slugNo>
+    <story.name>פתיח משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_Opener_CTC</objId>
+        <name>kis_vtr_Opener_CTC</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901082</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>52</story.slugNo>
+    <story.name>פתיח קצר משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_small_opener_KTK</objId>
+        <name>Kis_vtr_small_opener_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901083</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>53</story.slugNo>
+    <story.name>מעברון יציאה משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_wiper_KTC</objId>
+        <name>Kis_vtr_wiper_KTC</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901084</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>54</story.slugNo>
+    <story.name>מעברון חזרה משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_wiper_CTK</objId>
+        <name>Kis_vtr_wiper_CTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901085</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>55</story.slugNo>
+    <story.name>מעברון אולפן VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_wiper_KTK</objId>
+        <name>kis_vtr_wiper_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901086</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>47</story.slugNo>
+    <story.name>אות סיום משחקי הכיס VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_wiper_KTC</objId>
+        <name>Kis_vtr_wiper_KTC</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>68839</objId>
+        <name>KIS_GAMES_EXPLAINER_BIG_EMAIL</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901087</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>7</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901030</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>8</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901031</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>9</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901032</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>38</story.slugNo>
+    <story.name>פינה - אקספלנר גדול</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901063</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>39</story.slugNo>
+    <story.name>אות מעבר VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_wiper_KTK</objId>
+        <name>kis_vtr_wiper_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901064</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>40</story.slugNo>
+    <story.name>מושג/נתון אחד ביום VTR</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[
+]]></story.script>
+    <story.storyId>667901065</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>41</story.slugNo>
+    <story.name>אות מעבר VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_wiper_KTK</objId>
+        <name>kis_vtr_wiper_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901066</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>37</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901062</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>45</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901070</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>18</story.slugNo>
+    <story.name>יציאה לברייק VTR</story.name>
+    <story.format>VTR</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>Kis_vtr_wiper_KTC</objId>
+        <name>Kis_vtr_wiper_KTC</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901043</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>41</story.slugNo>
+    <story.name>הבנק הדיגיטלי VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_digital_bank_140321</objId>
+        <name>kis_vo_digital_bank_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+
+
+]]></story.script>
+    <story.storyId>667901069</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>42</story.slugNo>
+    <story.name>סניפים בנקים VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_bankim_140321</objId>
+        <name>kis_vo_bankim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670501496</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>43</story.slugNo>
+    <story.name>אפליקציות בנקים (פפר, ביט, פייבוקס) VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_apps_140321</objId>
+        <name>kis_vo_apps_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670501497</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>25</story.slugNo>
+    <story.name>ראיון ראשון</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901051</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>26</story.slugNo>
+    <story.name>אולפן: כתב \\ תחקיר \\ תזמון</story.name>
+    <story.format>אולפן/גרפיקה/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+
+
+]]></story.script>
+    <story.storyId>667901052</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>27</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901053</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>28</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901054</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>36</story.slugNo>
+    <story.name>מנכל בזק IFB</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_ifb_bezek_140321</objId>
+        <name>kis_vtr_ifb_bezek_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[וממש בהמשך לעניין הזה אנחנו אומרים שלום לדודו מזרחי, מנכ"ל בזק:
+מ.א ערב טוב ליאל
+* דודו ספר לנו מה אתם משיקים היום 
+מ.א. שתיים וחצי גיגה 
+* דודו מי יהיו הראשונים  שיוכלו לצרוך את השירות הזה?  איפה בארץ?
+מ.א   עד היום פרסנו 250...
+* (מתפרצת) אבל באיזה ישובים? מי יוכל להתקשר אילכם מחר בוקר ולבקש להתחבר?
+מ.א. בזמן שאנחנו מדברים 
+* אני רואה את המחירים שאתם מציגים היום, מאה שבעים שקל בחודש, אתם גם גובים דמי התקנה, זה לא נשמע אטרקטיבי או זול ביחס למתחרים שלכם 
+מ.א  היחסית  קטנה במחיר 
+* דודו אני רוצה לשאול אותך, הביטול של חובת הפריסה  האוניברסאלית, מעורר חשש שהסיטואציה הזאת רק תעמיק פערים, בין פריפריה למרכז, שאתם  תמהרו לחבר את המרכז ויישובי  הפריפריה ימשיכו  לחכות שכשממילא נקודת הפתיחה שלהם היא הרבה  פחות טובה. אתה מבין את החשש הזה?    
+מ.א  בכל נקודה בישראל 
+* אם אתם ממילא מתכוונים לפרוס בכל נקודה בישראל, אז למה בעצם חיכיתם כל השנים האלה שתבוטל חובת הפריסה האוניברסלית, אתה אומר שהתפישה היא שאנחנו חייבים לתת ללקוח  הראשון וללקוח האחרון את אותו שירות  אבל זאת הייתה התפיסה לאורח שנים ובתאוריה יכולתם לפרוס בכל הארץ אם אתם ממילא פורסים?
+מ.א. אחרי הרבה מאד הליכי  הסדרה 
+* אתה יכול להעריך תוך כמה זמן אנחנו נראה את כל אזרחי ישראל, או לפחות, אתה יודע, למעט אותם קהילות שלא מעוניינים בחיבור הזה, מתי נראה נגישות לכל אזרחי מדינת ישראל לשירות הזה, אם אתה צריך לעמוד את זה בשנים?  
+מ.א פריסת סיבים של בזק 
+* בזק מתמודדת עם לא מעט אתגרים בתקופה האחרונה, בין היתר, אם אותו מהלך שמשרד התקשרות מוביל, הורדת העלויות של הטלפוניה הקווית, מה זה אומר שמבחינת היכולת של בזק להמשיך ולפעול כמונופול תיקשרות? 
+מ.א. שנצליח לשכנע
+* אתה חושב שהרווחיות של החברה תצנח?
+מ.א אני מאד אופטימי
+* דודו מזרחי, מנ"ל בזק. תודה רבה שהייתה איתנו ערב טוב 
+מ.א  ערב טוב 
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484471</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>37</story.slugNo>
+    <story.name>פריסת סיבים VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_prisat_sivim_140321</objId>
+        <name>kis_vo_prisat_sivim_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670501484</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>38</story.slugNo>
+    <story.name>בזק VO</story.name>
+    <story.format>VO/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vo_bezek_140321</objId>
+        <name>kis_vo_bezek_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670501489</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>45</story.slugNo>
+    <story.name>וול: חבר מביא חבר</story.name>
+    <story.format>פתיח/CG</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264520</objId>
+        <name>KIS_GAMES_EXPLAINER_BIG:_friends</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[נכון תמיד אמרו לנו שאנחנו הסטארט אפ ניישן? אז אמרו - קבלה לעבודה בחברות הייטק מעולם לא הייתה דבר קל, בטח לא לאנשים שהגיעו מהפריפריה או ממקומות עם פחות הזדמנויות. והקורונה כמו הקורונה רק סיבכה את העניינים  - כשחברות רבות מצאו את עצמן מתמודדות עם ראיונות עבודה דרך הזום, וגילו שהפתרון הכי פשוט נמצא "בתוך הבית" - העובדים מגייסים את החברים שלהם - והענף הזה שממילא עבד בשיטה של חבר מביא חבר הקצין עוד יותר למועדון חברים סגור. אז איך השינוי בתהליך הגיוס  השפיע על הגיוון בהייטק? בכתבתו של איתי דודי:
+VTR IN]]></story.script>
+    <story.storyId>670484465</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>46</story.slugNo>
+    <story.name>כתבת גיוס להייטק VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_hitech_itay_140321</objId>
+        <name>kis_vtr_hitech_itay_140321</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>670484463</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>24</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901050</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>8</story.slugNo>
+    <story.name>סיטאפ חדשות בענייני היום</story.name>
+    <story.format>פתיח/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[((
+
+כאן לשים את התחקיר
+
+))]]></story.script>
+    <story.storyId>667901033</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>JINGLE</story.type>
+  </story>
+  <story>
+    <story.slugNo>9</story.slugNo>
+    <story.name>אולפן: כתב בוול \\ תחקיר \\ תזמון</story.name>
+    <story.format>אולפן/גרפיקה/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230861</objId>
+        <name>KIS_GAMES_WALL_MEZEG:לוגו</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230864</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230865</objId>
+        <name>KIS_GAMES_WALL_MEZEG:ימין + שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>230866</objId>
+        <name>KIS_GAMES_WALL_MEZEG:שמאל</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+
+
+
+
+]]></story.script>
+    <story.storyId>667901034</story.storyId>
+    <story.planDur>2:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>10</story.slugNo>
+    <story.name>ויזואליה לאייטם VO</story.name>
+    <story.format>VO</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>667901035</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>11</story.slugNo>
+    <story.name>סינק לאייטם SYNC</story.name>
+    <story.format>SYNC</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>((את הפתיח לכתוב בבוקסה למטה בבקשה!))</story.script>
+    <story.storyId>667901036</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>29</story.slugNo>
+    <story.name>אקספליינר סיבים LIVE</story.name>
+    <story.format>פתיח/גרפיקה/LIVE/LIVE/גרפיקה</story.format>
+    <story.clips/>
+    <story.cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264804</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_16</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264793</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_09</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264942</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_06</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264800</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_12</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264806</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_18</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264805</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_17</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264803</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_15</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264802</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_14</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264801</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_13</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264798</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_11</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264794</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_10</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264792</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_08</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264791</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_07</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264782</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_05</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264781</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_04</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264780</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_03</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264776</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_02</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264770</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_01</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+      <cg>
+        <mosId>VIZ-GATEWAY</mosId>
+        <objId>264769</objId>
+        <name>KIS_GAMES_EXPLAINER_SMALL:_00</name>
+        <in>00:00:00:00</in>
+        <out>00:00:00:00</out>
+      </cg>
+    </story.cg>
+    <story.script><![CDATA[
+CG IN
+בואו נדבר על אינטרט ועל המהירות שלו 
+CH
+כבר שנים שאנחנו מדברים על זה שישראל מפגרת מאחור, שאנחנו חייבים להתחבר לרשת סיבים שתאפשר גלישה מהירה, אבל אלה היו בעיקר דיבורים באוויר
+CH
+ואז הגיעה הקורונה והראתה לנו איך כל הדיבורים האלה מתרגמים לשגרת החיים המטריפה והבלתי אפשרית שלנו בשנה האחרונה 
+CH
+נסיון מייאש להוריד קבצים לעבודה מהבית או להעלות קבצים לרשת המשרדית, ולהיתקע, שוב ושוב ושוב, לנסות להחזיק שניים וחצי ילדים וכלב על שיעורי זום במקביל ולשמור על שפיות בזמן שהם מתנתקים כל שלוש דקות - 
+CH
+למה זה כזה סיוט לנסות להתנהל על הרשת הביתית? 
+CH
+כי בין 2012 ל2019 קצב צריכת הדאטה בישראל עלה בלא פחות מפי 14.5 - אבל המהירות של האינטרנט שלנו השתפרה בקצב הרבה יותר נמוך- מבערך 10 מגה (9.8) ב2012 ל-82.4 מגה ב2018
+CH
+החיבור לתשתיות של סיבים אופטיים אמור להקפיץ את המהירות של האינטרנט אצלנו לעולמות אחרים לגמרי - ש*יתחילו* במהירות הורדה של ג'יגה לשנייה והעלאה של מאה מגה לשנייה
+CH
+אבל בזמן שכל יתר העולם התחבר לתשתיות האלה אנחנו לא זזנו לשום מקום - נכון ל2020 יותר מ-80% מהתושבים בקוריאה הדרומית וביפן היו מחוברים לסיבים האלה,  כמעט 70% מהאזרחים בשוודיה, 50% מהתושבים בניו זילנד ובממוצע במדינות הOECD 27% מהתושבים נהנו מגלישה בקצבים האלה -
+CH
+אצלנו רק 2% מהלקוחות שצורכים שירותי אינטרנט היו מחוברים לסיב 
+
+
+CH
+איך הגענו למצב הזה? 
+CH
+הסיבה היא הרגולציה, וביתר פירוט דרישת "הפריסה האוניברסלית" שהמדינה הציבה במשך שנים לחברת בזק שקבעה שענקית תשתיות התקשורת חייבת להיות מסוגלת לספק לכל הלקוחות שלה שירות באותה איכות 
+CH
+ולכן אם היא מוכרת ללקוחות שלה בתל אביב אינטרנט מהיר במיוחד בחיבור לסיב, היא חייבת להיות מסוגלת לתת את אותו שירות גם בבית שאן, דימונה ומצפה עזוז 
+CH
+אלה שהפריסה של התשתיות עולה כסף, והחברה החליטה שלא משתלם לה לעשות את זה ולכן במקום שהדרישה הזאת תביא את כל השירותים לכל הארץ היא עשתה בדיוק ההפך - בזק פרסה תשתיות אבל לא חיברה אותן לצרכני הקצה ואף אחד לא קיבל ממנה את השירות הזה
+
+
+CH
+מה השתנה עכשיו? 
+CH
+המדינה ביטלה את החובה הזאת, ובמקביל הקימה קרן שהמטרה שלה להשקיע כסף לגרום לחברות התקשורת לפרוס תשתיות תקשורת גם בפריפריה, כמו שזה נראה היום זה יקרה הרבה יותר לאט מבמרכז
+
+
+CH
+ובכל זאת היציאה לדרך של החיבור לסיבים אמורה להיות שווה לכולנו הרבה מאוד כסף - בארצות הברית התוצר לנפש בקהילות עם חיבור לאינטרנט מהיר היה גבוה ביותר מ1% , בקנדה הייתה עלייה של כמעט 3% בשיעור התעסוקה, בארצות הברית העובדים באזורים שבהם יש אינטרנט מהיר נהנים משני ימי עבודה מהבית, ובצרפת הוקמו 5% יותר סטרטאפים באזורים שבהם יש פריסת סיבים 
+CH
+ בימים שבהם כולם רק שוברים את הראש איך לצאת מהמשבר הכלכלי הקשה ביותר שהיה כאן ולייצר "מנועי צמיחה" 
+CH
+אינטרנט מהיר וחיבור לתשתיות סיבים הוא חלק בסיסי בסיפור הזה שיכול להיות גיימצ'יינג'ר אמיתי
+
+
+
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></story.script>
+    <story.storyId>670484468</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>30</story.slugNo>
+    <story.name>אות מעבר VTR</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-ST1</mosId>
+        <objId>kis_vtr_wiper_KTK</objId>
+        <name>kis_vtr_wiper_KTK</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>667901058</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+</rundown>

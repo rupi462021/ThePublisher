@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            direction: rtl;
+        }
+
+        #buttonDiv {
+            direction: rtl;
+            float: left;
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <title>Video</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    <script src="../Scripts/AjaxCalls.js"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../Scripts/ajaxCalls.js"></script>
+
+    <script>
+        
+        $(document).ready(function () {            $("#buttonDiv").hide();            checkUser();        });
+
+        function checkUser() {
+            if (localStorage["userObject"] != null) {
+                tastStr = JSON.parse(localStorage["userObject"]);
+                $("#userName").append(tastStr.email);
+            }
+            else {
+                tastStr = [];
+            }
+        }
+        $("#logOut").click(function () {
+            document.location = "login.html";
+            localStorage.clear();
+        });
+
+        ////////////
+        var myHeaders = new Headers();
+        myHeaders.append("Cookie", "__Host-GAPS=1:FsHQzwqwnMp9ThsOy3vv2m5mhJr4bA:Tp9fKrR5Z_pjUb7z");
+
+        var requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            redirect: 'follow',
+        };
+
+        fetch("https://accounts.google.com/o/oauth2/v2/auth?client_id=657998460590-0rc4vtut30c1arb7cghplnno0r3c40e1.apps.googleusercontent.com&redirect_uri=http://localhost:44330&scope=https://www.googleapis.com/auth/youtube&response_type=code ", requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+        //////////////
+
+        /**
+         * Sample JavaScript code for youtube.search.list
+         * See instructions for running APIs Explorer code samples locally:
+         * https://developers.google.com/explorer-help/guides/code_samples#javascript
+         */
+        let videos;
+        let video;
+
+
+        function authenticate() {
+            return gapi.auth2.getAuthInstance()
+                .signIn({ scope: "https://www.googleapis.com/auth/youtube.force-ssl" })
+                .then(function () {
+                    loadClient()
+                    console.log("Sign-in successful");
+                },
+                    function (err) { console.error("Error signing in", err); });
+        }
+        function loadClient() {
+            gapi.client.setApiKey("AIzaSyCl5jZrFACLWxBBzaT5Qexx96h7WylC97w");
+            return gapi.client.load("https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest")
+                .then(function () { execute() },
+                    function (err) { console.error("Error loading GAPI client for API", err); });
+        }
+        // Make sure the client is loaded and sign-in is complete before calling this method.
+        function execute() {
+            return gapi.client.youtube.search.list({
+                "part": [
+                    "snippet"
+                ],
+                "channelId": "UC_HwfTAcjBESKZRJq6BTCpg",
+                "maxResults": 15
+            })
+                .then(function (response) {
+                    // Handle the results here (response.result has the parsed body).
+                    console.log("Response", response.result);
+                    videos = response.result.items;
+                    getVideosArray(response.result.items)
+                },
+                    function (err) { console.error("Execute error", err); });
+        }
+        gapi.load("client:auth2", function () {
+            gapi.auth2.init({ client_id: "657998460590-0rc4vtut30c1arb7cghplnno0r3c40e1.apps.googleusercontent.com" });
+
+            var isAuth = !!gapi.auth2.getAuthInstance().currentUser
+            if (isAuth) loadClient();
+        });
+
+
+
+
+        function getVideosArray(videosArray) {
+            console.log(videosArray[0].snippet.thumbnails.default.url);
+            let str = `<div class="videos-list" id="videos-list" style="display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center">`
+
+            videosArray.forEach(video => {
+
+
+                str += `<div class="video" id="${video.id.videoId}" style="display:flex; justify-conter:center; align-items:center; border-bottom:1px solid black; padding:16px;">
+                                             <h6 style="margin-left:10px; width:700px">${video.snippet.title}</h6>
+                                                <button onclick=executevideo(this) class="pull_video">pull video</button>
+                                            </div>`
+            });
+            str += `<div id="iframe_wrapper"> </div>"`
+            document.getElementById("cointaner").innerHTML += str;
+        }
+
+
+        function executevideo(elem) {
+
+            let selectedvideo = videos.find(obj => {
+                return obj.id.videoId == elem.parentNode.id;
+            });
+
+            console.log(selectedvideo);
+            console.log("SAdsadsasa")
+
+            return gapi.client.youtube.videos.list({
+                "part": [
+                    "player"
+                ],
+                "id": [
+                    elem.parentNode.id
+                ]
+            })
+                .then(function (response) {
+                    // Handle the results here (response.result has the parsed body).
+                    console.log("Response", response);
+                    document.getElementById("iframe_wrapper").innerHTML = response.result.items[0].player.embedHtml + `<button onclick=uploadtodb() class="upload_video">save video</button>`;
+
+                    video = {
+                        "id": selectedvideo.id.videoId,
+                        "channelTitle": selectedvideo.snippet.channelTitle,
+                        "description": selectedvideo.snippet.description,
+                        "title": selectedvideo.snippet.title,
+                        "ifrmae": response.result.items[0].player.embedHtml
+
+                    }
+                    console.log(video);
+
+                },
+                    function (err) { console.error("Execute error", err); });
+        }
+
+        function uploadtodb() {
+            ajaxCallLocal("POST", "../api/Videos", JSON.stringify(video), postSuccess(this), postError)
+
+
+
+        }
+        function postSuccess(data) {
+            console.log("Added to DB successfully")
+        }
+
+        function postError(data) {
+            console.log("Added to DB rejected")
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>כאן 11</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#" onclick="document.location='MainPage.html'">ראשי</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="document.location='ItemPage.html'">יצירת אייטם</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">וידאו</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="userName" href="#" style="margin-right: 600px"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="logOut" href="#">Log Out</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container" style="margin-top:20px">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2> וידאו</h2>
+                <div id="cointaner" style="margin:auto;  background-color:#fafafa;
+                        flex-direction: column;
+                         justify-content: center;
+                         align-items: center;">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div id="buttonDiv">
+                    <button onclick="authenticate">authorize and load</button>
+                    <button onclick="execute()">execute</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron text-center" style="margin-bottom:0">
+                    <p>Footer</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+       
+</body>
+</html>

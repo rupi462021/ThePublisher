@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+        body {
+            background-color: #dee2e6;
+        }
+        .red-star {
+            color: red;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+            padding: 5px;
+        }
+        .container {
+            max-width: 1140px;
+            background-color: beige;
+        }
+    </style>
+    <script src="../Scripts/ajaxCallsWithKey.js"></script>
+    <script>
+        $(document).ready(function () {           
+            $("#pForm").submit(f1); // bind the submit event to a function called f1
+        });
+        function f1() {
+            checkUserExist();
+            return false; // the return false will prevent the form from being submitted
+            // hence the page will not reload
+        }
+        function checkUserExist() {
+            console.log("In check!");        
+            valEmail = $("#emailTB").val();
+            let api = "../api/Customer?email=" + valEmail;
+            ajaxCall("GET", api, "", getcheckUserSuccess, getcheckUserError);
+        }
+        function getcheckUserSuccess(data) {
+            Data = data;
+            console.log(Data);           
+            if (Data.Email != null && Data.Access == 'yes')
+            {
+                swal("You are already registered in the system!", "Go to login page");
+            }
+            else if (Data.Email != null && Data.Access == 'no') {
+                swal("Wait for manager approval", "Please try again later");
+            }
+            else
+            {
+                AddCustomer();
+            }          
+        }
+        function getcheckUserError(err) {
+            console.log(err);
+        }
+        function AddCustomer() {           
+            customer = { // Note that the name of the fields must be identical to the names of the properties of the object in the server
+                Fname: $("#fnameTB").val(),
+                Lname: $("#lnameTB").val(),
+                Email: $("#emailTB").val(),
+                PhoneN: $("#phoneTB").val(),
+                Password: $("#passwordTB").val()               
+            }
+            ajaxCall("POST", "../api/Customer", JSON.stringify(customer), success, error);
+        }
+        // This function is called in case of a success
+        function success(data) {
+            swal("Your details have been recorded!","Your access will be approved after administrator approval");
+            saveLocalStorge();            
+        }
+        function saveLocalStorge() {
+            user = $("#emailTB").val();
+            userObject = { 'email': user};
+            localStorage.setItem('userObject', JSON.stringify(userObject));
+            console.log(userObject);
+        }
+        // This function is called in case of an error
+        function error(err) {
+            alert(err.responseJSON.ExceptionMessage);
+        }
+    </script>
+
+</head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>כאן 11</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="navTool">
+        <a class="navbar-brand" href="#">רישום למערכת</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="document.location='login.html'">Login</a>
+                </li>                
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <form id="pForm">
+            <!--<h2>Insert Your Details</h2>-->
+            <div class="form-group">
+                <label for="modelTB"><span class="red-star">★ </span>First name</label>
+                <input type="text" class="form-control" id="fnameTB" pattern="^[a-zA-z].{1,10}$"
+                       oninvalid="this.setCustomValidity('Up to 10 characters in English')"
+                       oninput="this.setCustomValidity('')" placeholder="Enter Your First name" required>
+            </div>
+            <div class="form-group">
+                <label for="manufacturerTB"><span class="red-star">★ </span>Last Name</label>
+                <input type="text" class="form-control" id="lnameTB" pattern="^[a-zA-z].{1,20}$" oninvalid="this.setCustomValidity('Up to 20 characters in English')"
+                       oninput="this.setCustomValidity('')" placeholder="Enter Your Last name" required>
+            </div>
+            <div class="form-group">
+                <label for="priceTB"><span class="red-star">★ </span>Email</label>
+                <input type="text" class="form-control" id="emailTB" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" oninvalid="this.setCustomValidity('Email pattern Is Not Valid')"
+                       oninput="this.setCustomValidity('')" placeholder="Enter Your Email" required />
+            </div>
+            <div class="form-group">
+                <label for="dealerPhone"><span class="red-star">★ </span>Phone Number (In Format ddd-ddddddd )</label>
+                <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
+                <input type="tel" class="form-control" placeholder="Enter Your phone Number" id="phoneTB"
+                       pattern="[0-9]{3}-[0-9]{7}"
+                       oninvalid="this.setCustomValidity('Phone Number pattern Is Not Valid')"
+                       oninput="this.setCustomValidity('')" required />
+            </div>
+            <div class="form-group">
+                <label for="discountCodeTB"><span class="red-star">★ </span>Password (At least: 8 characters, one capital letter and one digit)</label>
+                <!--<label for="discountCodeTB">Password (At least: 8 characters, one capital letter and one digit)</label>-->
+                <input type="text" class="form-control" id="passwordTB" pattern="^(?=.*\d)(?=.*[A-Z]).{8,15}$"
+                       oninvalid="this.setCustomValidity('Password pattern Is Not Valid')"
+                       oninput="this.setCustomValidity('')" placeholder="Enter Your Password " required />
+            </div>
+            <br />
+            <input type="submit" value="Send Details" />           
+            <!--<input type="button" onclick="document.location='login.html'" value="Back to login" id="restPage" />-->
+        </form>
+        <br />
+    </div>
+    <div id="ph"> </div>
+</body>
+</html>

@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Room</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+    <!--<script src="../Scripts/jquery-3.4.1.min.js"></script>-->
+    <style type="text/css">
+        .card-link{
+            padding:8px;
+        }
+        .wrap {
+            justify-content: space-between;
+        }
+        .logo {
+            overflow: hidden;
+            position: relative;
+            height: 60px;
+            background-color: white;
+            color: #1F6C8B;
+            font-family: Arial;
+        }
+        #hello_user {
+            margin-left: 600px;
+        }
+        .items {
+            width: 900px;
+            height: 250px;
+            text-align: center;
+            margin: 20px;
+            border: 4px solid black;
+            background-color: aquamarine;
+            font-size: 80%;
+        }
+        .search_item {
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .content-form {
+            display: flex;
+            justify-content: space-between;
+            padding: 24px;
+        }
+        .list-head {
+            padding: 24px 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+        }
+        body {
+            direction: rtl;
+            text-align:right;
+        }
+        .content-form {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 500px;
+            background-color: lightgray;
+            border: 1px solid #adb5bd;
+            padding: 15px;
+            width: 500px;
+        }
+        div.card-body {
+            direction: rtl;    
+        }
+        textarea {
+            overflow: auto;
+            resize: vertical;
+            width: 400px;
+        }      
+    </style>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../Scripts/ajaxCalls.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("ready!");
+            checkUser();
+            $("#logOut").click(function () {
+                document.location = "login.html";
+                localStorage.clear();
+            });
+            $("#getShow").click(showRend);
+            $("#getShow").click(showVideo);
+            $("#saveItem").click(saveItemD);
+            showVideoTitle();
+            $("#vlist").change(getUrl);
+        });
+        function checkUser() {
+            if (localStorage["userObject"] != null) {
+                tastStr = JSON.parse(localStorage["userObject"]);
+                $("#userName").append(tastStr.email);
+            }
+            else {
+                tastStr = [];
+            }
+        }
+        //in Success geting the show details from the xml file
+        function showRend() {
+            console.log("in rend");
+            let api = "../api/Item";
+            ajaxCall("GET", api, "", getShowSuccess, getShowError);
+        }
+        function getShowError(err) {
+            console.log(err);
+        }
+        function getShowSuccess(data) {
+            console.log(data);
+            console.log("in Success");
+            Data = data;
+            $("#showItems").empty();
+            $("#showItems").html("");
+            str = "";
+            for (var i = 0; i < Data.length; i++) {
+                str += "<div id='accordion'>"
+                str += "<div id='" + i + "'class='card'><div class='card-header'>";
+                str += "<a class='card-link' data-toggle='collapse' href='#collapseOne'>"
+                    + Data[i].ShowTitle + "</a >";
+                str += "<a href='#' id='" + i + "' class='btn btn-primary' onclick='sendText(this)'>" + " עריכה " + "</a>";
+                str += "<div id='collapseOne'  id='" + i + "' class='collapse show' data-parent='#accordion'>";
+                str += "<div class='card-body'><p>מספר תוכנית: " + Data[i].ShowId + "</p>";
+                str += "<p class='scriptName'>" + Data[i].StoryName + "</p>";
+                str += "<p> פורמט: " + Data[i].StoryFormat + "</p>";
+                str += "<p class='scriptC'>" + Data[i].StoryScript + "</p>";
+                str += "<p class='scriptId'>" + Data[i].StoryId + "</p>";
+                str += "</div></div>";
+                str += "</div></div>";
+                str += "</div>";
+            }
+            $("#showItems").append(str);
+        }
+        //in Success geting the videos from data
+        function showVideo() {
+            console.log("in videi");
+            let api1 = "http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=2021-03-15T07:15&end_datetime=2021-03-16T08:21:00";
+            ajaxCall("GET", api1, "", getVideouccess, getVideoError);
+        }
+        function getVideouccess(data) {
+            console.log(data);
+        }
+        function getVideoError(err) {
+            console.log(err);
+            console.log("failed");
+        }
+        function sendText(cntrl) {
+            console.log("in send");
+            var by = cntrl.id;            
+            var tit = $("p.scriptName");
+            var sid = $("p.scriptId");
+            var desc = $("p.scriptC");          
+            $("#title-input").val(tit[by].innerHTML);
+            $("#id-input").val(sid[by].innerHTML);
+            $("#desc-input").val(desc[by].innerHTML);                     
+        }
+        //save the item details and show in item save page
+        function saveItemD() {
+            console.log("in save item");
+            let _title = $("#title-input").val();
+            let _storyNum = $("#id-input").val();
+            let _description = $("#desc-input").val();
+            let savedItem = { // Note that the name of the fields must be identical to the names of the properties of the object in the server
+
+                Title: _title,
+                StoryNum: _storyNum,
+                Description: _description
+            }
+            ajaxCall("POST", "../api/SavedItem", JSON.stringify(savedItem), postSaveSuccess, postSaveError);
+        }
+        function postSaveSuccess(data) {
+         swal("Added Successfuly!", "Great Job", "success");
+            console.log(data);
+        }
+        function postSaveError(err) {
+            swal("This item has been saved!", "Select another item");
+            console.log(err.responseJSON);
+        }
+        function sendPost(msg) {
+            let pageId = "104598111726735";
+            console.log("trying to get page id from facebook API");
+            let user_token = sessionStorage.getItem("token");
+            let userID = sessionStorage.getItem("userID");
+            //try to get page access token
+            let url_get_page_access = "https://graph.facebook.com/" + pageId + "?fields=access_token&access_token=" + user_token;
+            let page_acces_token = httpGet(url_get_page_access);
+            var resp = JSON.parse(page_acces_token);
+            let postUrl = "https://graph.facebook.com/" + pageId + "/feed?message=" + document.getElementById('desc-input').value + "&access_token=" + resp.access_token;
+
+            let res = httpPost(postUrl);
+            console.log(res);
+        }
+        // function for posting in twitter!!should be comm
+        //function sendPostTwitt(cntr) {
+        //    console.log("trying to get page id from twitter API");
+            
+        //    let twitterURL = "https://api.twitter.com/1.1/statuses/update.json";
+
+        //    let twitUrl = "https://api.twitter.com/2/tweets/search/stream/rules"
+        //    let content = RequestPost(twitUrl);
+        //    let apiTwit = "../api/Twitter";
+        //    ajaxCall("GET", apiTwit, "", getConnectSuccess, getConnectError);
+        //}
+        // the request twitter
+        //function RequestTwitterGet(turl) {
+
+        //}
+        // the request to post twitter
+        //function RequestTwitterGet(turl) {
+
+        //}
+        function httpGet(url) {
+            var xml = new XMLHttpRequest();
+            xml.open('GET', url, false);
+            xml.send(null);
+            alert(xml.responseText);
+            return xml.responseText;
+        }
+        function httpPost(url) {
+            var xml = new XMLHttpRequest();
+            xml.open('POST', url, false);
+            xml.send();
+            return xml.responseText;
+        }
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '304468051299771',
+                cookie: true,
+                xfbml: true,
+                version: 'v10.0'
+            });
+            FB.getLoginStatus(function (response) {
+                statusChangeCallback(response);
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        function statusChangeCallback(response) {
+            if (response.status == "connected") {
+                console.log("connected")
+                sessionStorage.setItem("token", response.authResponse.accessToken);
+                sessionStorage.setItem("userID", response.authResponse.userID);
+            }
+            else {
+                console.log("not-connected")
+                sessionStorage.clear();
+            }
+            console.log(response);
+        }
+        function checkLoginState() {
+            FB.getLoginStatus(function (response) {
+                statusChangeCallback(response);
+            });
+        }
+        function showVideoTitle() {
+            console.log("in rend");
+            let api = "../api/Videos";
+            ajaxCallLocal("GET", api, "", getTitle, getTitleError);
+        }
+        function getTitle(data) {
+            console.log("success");
+            strTitle = '<option value="-1">בחר</option>';
+            for (var i = 0; i < data.length; i++) {
+                strTitle += '<option value=' + data[i].Id + '>' + data[i].Title + '</option>'
+            }
+            $("#vlist").append(strTitle);
+        }
+        function getTitleError(data) {
+            console.log("faild")
+        }
+        function getUrl() {
+            let id = $("#vlist").val();
+            let api = "../api/videos/getItem?id=" + id;
+            ajaxCallLocal("GET", api, "", getSuccessItem, getErrorItem);
+        }
+        function getSuccessItem(data) {
+            $("#frame").html('').append($('', { src: 'blah.gif' }));
+            console.log("YAHOOO");
+            console.log(data[0].Ifrmae)
+            let video = data[0].Ifrmae
+            $("#frame").append(video);
+        }
+        function getErrorItem(data) {
+            console.log("NOOOOOO")
+        }
+    </script>
+</head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>כאן 11</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#" onclick="document.location='MainPage.html'">ראשי</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">יצירת אייטם</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='videoPage.html'">וידאו</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="userName" href="#" style="margin-right: 600px"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="logOut" href="#">Log Out</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" style="margin-top:20px">
+        <div class="row">
+            <div class="col-sm-4" id="itemsDiv">
+                <div class="list">
+                    <div class="list-head">
+                        <h2>תוכניות</h2>
+                        <button id="getShow" type="button" class="btn btn-primary">ייבא תכנים</button>
+                    </div>
+                    <div class="fakeimg">
+                        <br>
+                        <div id="showItems"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="search_item">
+                    <h5>בחר סרטון מהרשימה</h5>
+                    <select id="vlist">
+                    </select>
+                </div>
+                <div id="frame" class="search_item">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="content-form">
+                            <div>
+                                <label for="title-input">שם תכנית</label>
+                                <input id="title-input" type="text" name="title-input" value="" /><br>
+                                <label for="id-input">מספר תכנית</label>
+                                <input id="id-input" type="text" name="id-input" value="" />
+                            </div>
+                            <div>
+                                <label for="desc-input">תאור</label>
+                                <textarea id="desc-input" name="desc-input" rows="10" cols="40"></textarea>
+                            </div>
+                            <!--<img src="https://img.icons8.com/fluent/50/000000/twitter.png" />-->
+                            <!--<img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" />-->
+                            <!--<img src="https://img.icons8.com/officel/50/000000/youtube.png" />-->
+                            <fb:login-button scope="public_profile,email"
+                                             onlogin="checkLoginState();">
+                            </fb:login-button>
+                            <button id="saveItem">Save Item</button>
+                            <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
+                            <!--<button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-8">              
+            </div>
+        </div>
+    </div>
+     <div id="pphh"></div>
+     <div class="jumbotron text-center" style="margin-bottom:0">
+         <p>Footer</p>
+     </div>
+</body>
+</html>

@@ -1,0 +1,509 @@
+<rundown>
+  <show>
+    <show.title>HEBREW 3/14/2021 12:05</show.title>
+    <show.showId>667459055</show.showId>
+    <show.channelId>54702</show.channelId>
+    <show.typeId>211219307</show.typeId>
+    <show.start>2021-03-14 12:05:00.0</show.start>
+  </show>
+  <story>
+    <story.slugNo>1</story.slugNo>
+    <story.name>פתיחה</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[שלום לכם. יש לנו פֶּעַרִים,
+הפער בין הפגנת הַעַנַק באום אל פחם לְבֶין מה שסיקרו ממנה, 
+הפער בין הסקרים שבחדשות לְבֶין סִקְרֶי העומק של המפלגות, 
+ולאה לב תטיל טרור על שימוש היתר במילה טרור,
+בואו נראה מה מחכה לנו - מֶהצד השני.
+VTR IN]]></story.script>
+    <story.storyId>667780010</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>2</story.slugNo>
+    <story.name>פתיח מהצד השני</story.name>
+    <story.format>VTR</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_PATIACH_14032021</objId>
+        <name>GZ_VTR_PATIACH_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script></story.script>
+    <story.storyId>670484442</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>4</story.slugNo>
+    <story.name>VTR לקט קטי איידן אש וד"ר</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_LEKET_14032021</objId>
+        <name>GZ_VTR_LEKET_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+קורונה אחת ביום - מספרים לא משקרים, ברור, אבל האם הם מדוייקים? והפעם - כמה חולים במצב קשה ישנם. תלוי באיזה יום בַּשבוע:
+VTR IN
+שמתם לב? יום שני. למה בחרנו ביום שני? הרי יכול להיות שֶׁבְּכוֹל יום תהיה עלייה במספר החולים שמצבם קשה. אלא שהחברים מֶהמעבדה של פרופסור ערן סגל בִּמְכוֹן וייצמן בדקו וּמַצְאוּ איך מספר החולים במצב קשה *החדשים* משתנה מִיוֹם לְיוֹם. 
+הנה, בדרך כלל בַּיַמִים ראשון וְשני יש גידול במספר החולים לעומת הַמֶמוּצַע של השבוע הקודם, אחר כך גידול מיזערי, וּבְסוֹף השבוע ירידה גדולה. 
+והנה, עינינו הרואות, בְּשישי וּבְשבת יש הרבה פחות חולים במצב קשה חדשים. וּבִתְחילת השבוע, בַּיַמִים ראשון ושני, נרשמים הכי הרבה חולים חדשים. 
+למה?!?! שאלה טובה. הקורונה שומרת שבת? אולי אנחנו שומרים שבת, או פשוט מתאפקים בסוף השבוע, וּמִתאשפזים רק ביום ראשון - אז זה יופיע בַּרישומים של יום שני. אולי. אפשר לחשוב על הסברים לא ביולוגיים נוספים. 
+זה המקרה שבו פֶּירקנו אבל אנחנו לא יודעים להרכיב. כן יודעים לשים לב באיזה יום במשרד הבריאות נשמעים מודאגים יותר. 
+VTR WIPER
+
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780014</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>5</story.slugNo>
+    <story.name>מעברון מהצד השני - 4 שניות</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_MAVARON</objId>
+        <name>GZ_VTR_MAVARON</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>670484443</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>7</story.slugNo>
+    <story.name>VTR לקט קושמרו חסון ודקל</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_KUSHMARO_14032021</objId>
+        <name>GZ_VTR_KUSHMARO_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+ביום שישי הייתה באום אל פחם הפגנת ענק של יהודים וְעַרְבִים בִּמְחאה על האלימות בחברה הַעַרְבִית ועל אלימות המשטרה. שְׁמַעַתם על זה? גם אנחנו בקושי. אולי כי בחדשות דיווחו לנו בעיקר על אֶירוע *אחד* מתוך ההפגנה:
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780015</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>8</story.slugNo>
+    <story.name>VTR חסון: משהו פחות חיובי עם הרבה אלימות</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_HASON_14032021</objId>
+        <name>GZ_VTR_HASON_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+כן, כבר תשעה שַׁבועות מתקיימות באום אל פחם בכל יום שישי הפגנות נגד האלימות והפשיעה בַּחברה הַעַרְבית. לפני שבוע היגיעו אליה כַּחַמישה עשר אלף עַרְבים וִיהודים. המספר הגבוה ביותר עד כה - וזה סיפור. אבל לא כולם שמעו עליו כי היה שם עוד סיפור. במהלך ההפגנה, הותקף חבר הכנסת מנסור עבאס. כן, גם זה סיפור. אבל חברנו עידן רינג מֶעַמותת סיכוי שם לב, שהסיפור של תקיפת חבר הכנסת עבאס, יושב ראש רע"מ, זכה בְּכַמה ממהדורות החדשות ליותר התיַיחַסות מֶהַסיפור של הפגנת הַעַנק: 
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780016</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>9</story.slugNo>
+    <story.name>VTR חסון: עלי מוגרבי, הקרב בין המשותפת לבין עבאס יורד לרחוב</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_ALI_14032021</objId>
+        <name>GZ_VTR_ALI_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+דני קושמרו עלה פה על הפער. זה אכן האירוע שיזכרו, אבל מי דואג שדווקא אותו נזכור אם לא… אנחנו, התקשורת? ניכר גם פער בין הדיון באולפן שהתמקד בִּתְקיפת עבאס, לְבֶין הכתבים בשטח שרצו לדבר על הפגנת הַענק:
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780024</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>10</story.slugNo>
+    <story.name>VTRינגר: תראה, הפגנה של בין עשרת אלפים לעשרים אלף בני אדם</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_ZINGER_14032021</objId>
+        <name>GZ_VTR_ZINGER_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+לא זוכר אירוע כזה, אבל ראיתם? נסאר מדבר על ההפגנה והכותרת על המסך נשארת "תקיפת עבאס". והפער הזה הוא לא רק דוגמה לַאופן שבו בחרנו סיפור אחד על תקיפת חבר כנסת על ידי מפגינים ערבים, על פני סיפור אחר - שיש מחאה ענקית, של ערבים וִיהודים נגד אלימות. מֶהַפַּעַר הזה יש גם מרוויח פוליטי עיקרי, כפי שהסביר חברנו ערן זינגר בכאן:
+VTR IN
+ואתם יודעים מה זה אומר - כשאחד מרוויח, אחר מפסיד. והפעם כולנו הִפְסדנו. הסיפור הקטן הצליח להסתיר את הסיפור גדול. 
+VTR WIPER
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780025</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>11</story.slugNo>
+    <story.name>מעברון לאה לב</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_LEALEV</objId>
+        <name>GZ_VTR_LEALEV</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script>((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))</story.script>
+    <story.storyId>670484446</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>13</story.slugNo>
+    <story.name>VTR לאה לב - טרור</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_TERROR_14032021</objId>
+        <name>GZ_VTR_TERROR_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+גיא: קול אחר והיום לאה לב, 
+לאה: שלום גיא
+VTR IN
+גיא: פרידה
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780026</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>true</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>14</story.slugNo>
+    <story.name>מעברון מהצד השני - 4 שניות</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_MAVARON</objId>
+        <name>GZ_VTR_MAVARON</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>670484445</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>16</story.slugNo>
+    <story.name>VTR אקוניס: אנחנו בסקרים שלנו בשלושים מנדטים</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_AKUNIS_14032021</objId>
+        <name>GZ_VTR_AKUNIS_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+איך מתמודדים בַּמפלגות עם ירידה בַּסקרים? קל - מוצאים סקרים אחרים, פנימיים, והם כמובן אופטימיים יותר. 
+אז בבקשה - הסקרים מראים שהליכוד תקוע מתחת ל"תקרת זכוכית" של 30 מנדטים? אין בֶּעַיַה - סִקְרֶי "העומק" ישבֶּרו אותה:
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780034</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>17</story.slugNo>
+    <story.name><![CDATA[VTR נתניהו: לפי הסקרים הפנימיים שלנו יש לנו כרגע פוטנציאל של 40
+]]></story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_BIBI_14032021</objId>
+        <name>GZ_VTR_BIBI_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+אמרנו 30? סליחה! התכוונו 40:
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780035</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>18</story.slugNo>
+    <story.name>VTR נתניהו: אני יכול להגיד לך שמסקר פנימי</story.name>
+    <story.format>VTR/פתיח/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_SEKER_14032021</objId>
+        <name>GZ_VTR_SEKER_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[((את הפתיח לכתוב בבוקסה למטה בבקשה!))
+ו-40 זה רק למפלגה, חכו עד שתשמעו מה הסקרים הפנימיים אומרים על גודל הגוש: 
+VTR IN
+((פה לכתוב את הסטרייפים והסופרים:
+CTRL+1))
+
+
+]]></story.script>
+    <story.storyId>667780036</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>19</story.slugNo>
+    <story.name>VTR גנץ: אני לא על סף אחוז החסימה[</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_GANTZ_14032021</objId>
+        <name>GZ_VTR_GANTZ_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[נוגעים בְּשישים וְאֶחַד? רוב הסקרים הלא פנימיים לא נותנים לְגוש יַמין בְּרַאשׁוּת הליכוד שישים וְאֶחַד מנדטים, אבל נוגעים בְּשישים וְאֶחַד? טוב, נוגעים זה נכון להכול. 
+וזה נכון גם לכחול לבן:
+VTR IN
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484450</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>20</story.slugNo>
+    <story.name>VTRתמנו שטה: אתמול היה סקר של חמישה מנדטים</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_TAMANO_14032021</objId>
+        <name>GZ_VTR_TAMANO_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[סליחה, אמרנו מתחזקים, אפילו לא דיברנו על הפוטנציאל שמראים סקרי העומק:
+VTR IN
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484448</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>21</story.slugNo>
+    <story.name>VTR זנדברג: בסקרי העומק שלנו הציבור שלנו</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_TAMAR_14032021</objId>
+        <name>GZ_VTR_TAMAR_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[כפול. מעולה. הלאה, עכשיו מרצ בְּצַרוֹת בַּסְקרים. וּמַה אומרים העמוקים?:
+VTR IN
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484451</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>22</story.slugNo>
+    <story.name>VTRיוכפז: אתם כרגע עומדים על 19</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_GOLAN_14032021</objId>
+        <name>GZ_VTR_GOLAN_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[מדהים איך סקרי העומק האלה תמיד מבטיחים יותר. גם ביש עתיד:
+VTR IN
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484449</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>23</story.slugNo>
+    <story.name>VTR סער: ואני אומר לך, אני רגוע, אני רגוע</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_SAAR_14032021</objId>
+        <name>GZ_VTR_SAAR_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[וגם בתקווה חדשה:
+VTR IN
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484453</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>24</story.slugNo>
+    <story.name>VTR זליכה: אבל מה שרואים בסקר הזה ובסקרי העומק</story.name>
+    <story.format>פתיח/גרפיקה/VTR/גרפיקה</story.format>
+    <story.clips>
+      <clip>
+        <mosId>PLAYER-TLV</mosId>
+        <objId>GZ_VTR_ZALICHA_14032021</objId>
+        <name>GZ_VTR_ZALICHA_14032021</name>
+      </clip>
+    </story.clips>
+    <story.cg/>
+    <story.script><![CDATA[וַאַפִילוּ אצל פרופסור ירון זַלִיכַה:
+VTR IN
+איזה מזל שיש סקרי עומק. ולא כי הם סקרי עומק, אלא בעיקר כי הם לא חייבים בִּשְׁקִיפוּת. או בְּפִרְסוּם. אפשר להגיד הכול! זה אולי לא מדויק, אולי אין לַזֶה כיסוי, אבל היי - זה לפחות עמוק.
+
+((להוסיף את הגרפיקה כאן באמצעות קונטרול 1))]]></story.script>
+    <story.storyId>670484452</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>25</story.slugNo>
+    <story.name>סיום</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[זהו. אלו היו הפערים שאנחנו מצאנו. אם יש לכם פערים נשמח אם תספרו לנו עליהם. נחזור מחר, ואנחנו כל הזמן בפייסבוק, ביוטיוב ובכלל באינטרנט. 
+(פאוזה)
+להתראות.]]></story.script>
+    <story.storyId>667780043</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo>27</story.slugNo>
+    <story.name>לאה לב לבחירות</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script><![CDATA[הנה דבר אחד שלא הֶבַנְתִי בכנסת הַאַחַרונה. מי יושב עם מי? פנינה תֶמֶנוֹ שאטה עזבה מלפיד לגנץ במקביל לְרַדִיר מְרֶיח שעברה ליש עתיד, סער, אלקין, יפעת שאשא-ביטון, מיכל שיר וְשַׁרֶן השכל היו בליכוד ועברו לתקווה חדשה. וְגם הילה שי וַזַאן שעברה אַלֶיהֶם מִכַּחוֹל לבן, שזה הלם הלם הלם שיש חַבְרַת כנסת בשם הזה. יועז הנדל וּצְבִי האוזר רצו עם בּוֹגִי תחת גנץ, עזבו את בּוֹגִי, עברו לגנץ, עזבו את גנץ - עכשיו הם בתקווה חדשה בִּזְמַן שֶׁבּוֹגִי עזב את גנץ כדי לרוץ לבד ואז לפרוש כמו ניסנקורן שעשה אותו דבר עם חַנַיַית ביניים אצל חולדאי אַחַרֶי שֶׁסֶירַב לרוץ בַּעַבודה כמו רם שפע שישב אצל גנץ ועבר לַעַבודה.
+בקיצור מנהלים פה מפלגות כמו קבוצות כדורגל באירופה, כל אחד נהיה רכש. נִרְאֶה לכם שיש לי זמן להתעסק בְּהרכבים?
+אני מצביעה לְקפטן, או קפטנית.]]></story.script>
+    <story.storyId>670484455</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+  <story>
+    <story.slugNo></story.slugNo>
+    <story.name>פתיח דיגיטל</story.name>
+    <story.format>פתיח</story.format>
+    <story.clips/>
+    <story.cg/>
+    <story.script>שלום לכם, מהצד השני, אנחנו לא מספרים חדשות, אלא מספרים על הפער בין המציאות לבין איך שהיא משתקפת בתקשורת ויש פער. הזמן קצר ואנחנו תמיד ממהרים.</story.script>
+    <story.storyId>667780045</story.storyId>
+    <story.planDur>0:00</story.planDur>
+    <story.isSkip>false</story.isSkip>
+    <story.type>STORY</story.type>
+  </story>
+</rundown>

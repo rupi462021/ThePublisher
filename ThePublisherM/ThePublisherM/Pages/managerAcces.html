@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Manager Acces</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../Scripts/ajaxCalls.js"></script>
+    <style>
+        body {
+            color: #404E67;
+            background: #F5F7FA;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .table-wrapper {
+            /*width: 700px;*/
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        }
+
+        .table-title {
+            padding-bottom: 10px;
+            margin: 0 0 10px;
+        }
+
+            .table-title h2 {
+                margin: 6px 0 0;
+                font-size: 22px;
+            }
+
+            .table-title .add-new {
+                float: right;
+                height: 30px;
+                font-weight: bold;
+                font-size: 12px;
+                text-shadow: none;
+                min-width: 100px;
+                border-radius: 50px;
+                line-height: 13px;
+            }
+
+                .table-title .add-new i {
+                    margin-right: 4px;
+                }
+
+        table.table {
+            /*table-layout: fixed;*/
+        }
+
+            table.table tr th, table.table tr td {
+                border-color: #e9e9e9;
+            }
+
+            table.table th i {
+                font-size: 13px;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+
+            table.table th:last-child {
+                width: 150px;
+            }
+
+            table.table td a {
+                cursor: pointer;
+                display: inline-block;
+                margin: 0 5px;
+                min-width: 24px;
+            }
+
+                table.table td a.add {
+                    color: #27C46B;
+                }
+
+                table.table td a.edit {
+                    color: #FFC107;
+                }
+
+                table.table td a.delete {
+                    color: #E34724;
+                }
+
+            table.table td i {
+                font-size: 19px;
+            }
+
+            table.table td a.add i {
+                font-size: 24px;
+                margin-right: -1px;
+                position: relative;
+                top: 3px;
+            }
+
+            table.table .form-control {
+                height: 32px;
+                line-height: 32px;
+                box-shadow: none;
+                border-radius: 2px;
+            }
+
+                table.table .form-control.error {
+                    border-color: #f50000;
+                }
+
+            table.table td .add {
+                display: none;
+            }
+
+        nav.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+            direction: rtl;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            checkUser();
+            $("#logOut").click(function () {
+                document.location = "login.html";
+                localStorage.clear();
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+            var actions = $("table td:last-child").html();
+            sendData();
+            // Add row on add button click
+            $(document).on("click", ".add", function () {
+                var empty = false;
+                var input = $(this).parents("tr").find('input[type="text"]');
+                $(this).parents("tr").find("td:not(:last-child)").each(function () {
+                    var t = $(this).text();
+                });
+                var id = $(this).parents("tr").children(0).children(0)[0].value;
+                var fname = $(this).parents("tr").children(0).children(0)[1].value;
+                var lname = $(this).parents("tr").children(0).children(0)[2].value;
+                var email = $(this).parents("tr").children(0).children(0)[3].value;
+                var access = $(this).parents("tr").children(0).children(0)[4].value;
+                var settings = {
+                    // "url": "https://localhost:44342/api/savedItem?id="+id,
+                    "url": "/api/Manager?id=" + id,
+                    "method": "PUT",
+                    "timeout": 0,
+                    "headers": {
+                        "Content-Type": "application/json"
+                    },
+                    "data": JSON.stringify({
+
+                        "fname": fname,
+                        "lname": lname,
+                        "email": email,
+                        "access": access
+                    }),
+                };
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+                    swal("Added Successfuly!", "Great Job", "success");
+                });
+                input.each(function () {
+                    if (!$(this).val()) {
+                        $(this).addClass("error");
+                        empty = true;
+                    } else {
+                        $(this).removeClass("error");
+                    }
+                });
+                $(this).parents("tr").find(".error").first().focus();
+                if (!empty) {
+                    input.each(function () {
+                        $(this).parent("td").html($(this).val());
+                    });
+                    $(this).parents("tr").find(".add, .edit").toggle();
+                    $(".add-new").removeAttr("disabled");
+                }
+            });
+            function checkUser() {
+                if (localStorage["userObject"] != null) {
+                    tastStr = JSON.parse(localStorage["userObject"]);
+                    $("#userName").append(tastStr.email);
+                }
+                else {
+                    tastStr = [];
+                }
+            }
+            // Edit row on edit button click
+            $(document).on("click", ".edit", function () {
+                $(this).parents("tr").find("td:not(:last-child)").each(function () {
+                    $(this).html('<input type="text" class="form-control" value="' + $(this).text() + '">');
+                });
+
+                $(this).parents("tr").find(".add, .edit").toggle();
+                $(".add-new").attr("disabled", "disabled");
+            });
+            // Delete row on delete button click
+            $(document).on("click", ".delete", function () {
+                row_to_delete = $(this).parents("tr");
+                $('.modal').show();
+            });
+        });
+        function sendData() {
+            console.log("in rend");
+            ajaxCall('GET', '../api/Manager', '', getContent, errorCB)
+        }
+        function getContent(content) {
+            console.log(content);
+            var htmlString = '';
+            for (let i = 0; i < content.length; i++) {
+                htmlString += `<tr>
+                                            <td style="pointer-events:none">${content[i].id}</td>
+                                            <td>${content[i].fname}</td>
+                                            <td>${content[i].lname}</td>
+                                            <td>${content[i].email}</td>
+                                            <td>${content[i].access}</td>
+
+                                            <td>
+                                                <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                                                <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                                <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                                            </td>
+                                        </tr>`
+            }
+
+
+            $('#table-body').html(htmlString);
+        }
+
+        function errorCB(err) {
+            alert(err);
+        }
+        var row_to_delete;
+        function deleteRow() {
+            var id = row_to_delete.children(":first").text();
+            ajaxCall('DELETE', '../api/Manager/' + id, '', deleteSuccess, errorCB)
+            row_to_delete.remove();
+            $('.modal').hide();
+        }
+        function deleteSuccess(obj) {    
+            swal("Delete Successfuly!", "Great Job", "success");
+        }
+    </script>
+</head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>כאן 11</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#" onclick="document.location='MainPage.html'">ראשי</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='ItemPage.html'">יצירת אייטם</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="document.location='videoPage.html'">וידאו</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">כניסת מנהל</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="userName" href="#" style="margin-right: 600px"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="logOut" href="#">Log Out</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="deleteRow()">Delete</button>
+                    <button type="button" class="btn btn-secondary" onclick="$('.modal').hide();" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-lg">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-8"><h2><b>Users and access certificates</b></h2></div>
+                    </div>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>First name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Access</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
