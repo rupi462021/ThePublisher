@@ -204,24 +204,24 @@
             console.log(res);
         }
         // function for posting in twitter!!should be comm
-        //function sendPostTwitt(cntr) {
-        //    console.log("trying to get page id from twitter API");
+        function sendPostTwitt(cntr) {
+            console.log("trying to get page id from twitter API");
             
-        //    let twitterURL = "https://api.twitter.com/1.1/statuses/update.json";
+            let twitterURL = "https://api.twitter.com/1.1/statuses/update.json";
 
-        //    let twitUrl = "https://api.twitter.com/2/tweets/search/stream/rules"
-        //    let content = RequestPost(twitUrl);
-        //    let apiTwit = "../api/Twitter";
-        //    ajaxCall("GET", apiTwit, "", getConnectSuccess, getConnectError);
-        //}
+            //let twitUrl = "https://api.twitter.com/2/tweets/search/stream/rules"
+            //let content = RequestPost(twitUrl);
+            let apiTwit = "../api/Twitter";
+            ajaxCall("POST", apiTwit, "", RequestTwittSuccess, RequestTwittError);
+        }
         // the request twitter
-        //function RequestTwitterGet(turl) {
-
-        //}
+        function RequestTwittSuccess(data) {
+            console.log("Success!!!");
+        }
         // the request to post twitter
-        //function RequestTwitterGet(turl) {
-
-        //}
+        function RequestTwittError(err) {
+            console.log("Error!!!");
+        }
         function httpGet(url) {
             var xml = new XMLHttpRequest();
             xml.open('GET', url, false);
@@ -377,7 +377,7 @@
                             </fb:login-button>
                             <button id="saveItem">Save Item</button>
                             <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
-                            <!--<button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>-->
+                            <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
                         </div>
                     </div>
                 </div>
