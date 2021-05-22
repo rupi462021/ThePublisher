@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
     <!--<script src="../Scripts/jquery-3.4.1.min.js"></script>-->
     <style type="text/css">
         .card-link{
@@ -77,15 +78,16 @@
             width: 500px;
         }
         div.card-body {
-            direction: rtl;    
+            direction: rtl;
         }
         textarea {
             overflow: auto;
             resize: vertical;
             width: 400px;
-        }      
+        }
     </style>
     <link href="style.css" rel="stylesheet" />
+    <!--<link href="StyleMain.css" rel="stylesheet" />-->
     <script src="../Scripts/ajaxCalls.js"></script>
     <script>
         $(document).ready(function () {
@@ -159,13 +161,13 @@
         }
         function sendText(cntrl) {
             console.log("in send");
-            var by = cntrl.id;            
+            var by = cntrl.id;
             var tit = $("p.scriptName");
             var sid = $("p.scriptId");
-            var desc = $("p.scriptC");          
+            var desc = $("p.scriptC");
             $("#title-input").val(tit[by].innerHTML);
             $("#id-input").val(sid[by].innerHTML);
-            $("#desc-input").val(desc[by].innerHTML);                     
+            $("#desc-input").val(desc[by].innerHTML);
         }
         //save the item details and show in item save page
         function saveItemD() {
@@ -182,7 +184,7 @@
             ajaxCall("POST", "../api/SavedItem", JSON.stringify(savedItem), postSaveSuccess, postSaveError);
         }
         function postSaveSuccess(data) {
-         swal("Added Successfuly!", "Great Job", "success");
+            swal("Added Successfuly!", "Great Job", "success");
             console.log(data);
         }
         function postSaveError(err) {
@@ -205,8 +207,9 @@
         }
         // function for posting in twitter!!should be comm
         function sendPostTwitt(cntr) {
+            alert("Twitter!");
             console.log("trying to get page id from twitter API");
-            
+
             let twitterURL = "https://api.twitter.com/1.1/statuses/update.json";
 
             //let twitUrl = "https://api.twitter.com/2/tweets/search/stream/rules"
@@ -375,9 +378,13 @@
                             <fb:login-button scope="public_profile,email"
                                              onlogin="checkLoginState();">
                             </fb:login-button>
+                            <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" 
+                               class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>
                             <button id="saveItem">Save Item</button>
                             <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
                             <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
+                            <!--<a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
                 </div>
