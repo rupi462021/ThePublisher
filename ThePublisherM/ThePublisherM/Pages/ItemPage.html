@@ -147,7 +147,7 @@
         //in Success geting the videos from data
         function showVideo() {
             console.log("in videi");
-            let api1 = "http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=2021-03-15T07:15&end_datetime=2021-03-16T08:21:00";
+            let api1 = "https://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=2021-03-15T07:15&end_datetime=2021-03-16T08:21:00";
             ajaxCall("GET", api1, "", getVideouccess, getVideoError);
         }
         function getVideouccess(data) {
