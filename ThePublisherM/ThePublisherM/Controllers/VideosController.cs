@@ -59,10 +59,16 @@ namespace ThePublisherM.Controllers
             //    //return tokens;
 
         }
+<<<<<<< Updated upstream
         public string Get(string from, string to)
+=======
+
+
+        public string Get(string from, string to, string date)
+>>>>>>> Stashed changes
         {
             string x = Token();
-            var client = new RestClient("http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=" + from + "&end_datetime=" + to);
+            var client = new RestClient("http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=" + date + "T" + from + "&end_datetime=" + date + "T" + to);
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
             request.AddHeader("Token", x);
