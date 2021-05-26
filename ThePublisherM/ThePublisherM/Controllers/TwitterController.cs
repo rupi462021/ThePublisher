@@ -7,27 +7,42 @@ using System.Web.Http;
 using System.Xml.XmlConfiguration;
 using System.IO;
 using System.Text;
+using Tweetinvi;
+using System.Threading.Tasks;
+using ThePublisherM.Models;
 
 namespace ThePublisherM.Controllers
 {
     public class TwitterController : ApiController
     {
         // GET api/<controller>
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public string Get()
         {
-            return "value";
+            Twitter tw = new Twitter();
+            return tw.AuthenticatTwitter();
+        }
+        public string Get(string bearerToken, string screenName, int count, bool excludeReplies, bool includeRTs)
+        {
+            Twitter twi = new Twitter();
+            return twi.GetUserTimeline(bearerToken, screenName, count, excludeReplies, includeRTs);
         }
 
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
+
         // POST api/<controller>
-        public void Post([FromBody] string value)
-        {
-        }
+        //public void Post([FromBody] Twitter tw)
+        //{
+        //    tw.AuthenticatTwitter();
+        //}
 
         // PUT api/<controller>/5
         public void Put(int id, [FromBody] string value)

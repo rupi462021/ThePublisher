@@ -4,23 +4,63 @@
     <title>Show Room</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
-
+    <!--ch-->
+    <!--<<<<<<< Updated upstream-->
     <!--<script src="../Scripts/jquery-3.4.1.min.js"></script>-->
-    <style type="text/css">
-        .card-link{
-            padding:8px;
+    <!--=======
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/AjaxCalls.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="style.css" rel="stylesheet" />-->
+    <!-- CSS only -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <!-- JavaScript Bundle with Popper -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/AjaxCalls.js"></script>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="../Scripts/ajaxCalls.js"></script>
+
+    >>>>>>> Stashed changes-->
+    <!--ch-->
+    <!--<script src="../Scripts/jquery-3.4.1.min.js"></script>-->
+
+    <style>
+        .card-link {
+            padding: 8px;
         }
+
         .wrap {
             justify-content: space-between;
         }
+
         .logo {
             overflow: hidden;
             position: relative;
@@ -29,9 +69,11 @@
             color: #1F6C8B;
             font-family: Arial;
         }
+
         #hello_user {
             margin-left: 600px;
         }
+
         .items {
             width: 900px;
             height: 250px;
@@ -41,20 +83,24 @@
             background-color: aquamarine;
             font-size: 80%;
         }
+
         .search_item {
             justify-content: space-between;
             padding: 10px;
         }
+
         .content-form {
             display: flex;
             justify-content: space-between;
             padding: 24px;
         }
+
         .list-head {
             padding: 24px 16px;
             display: flex;
             justify-content: space-between;
         }
+
         .container {
             width: 100%;
             height: 100%;
@@ -63,10 +109,12 @@
             align-content: center;
             justify-content: center;
         }
+
         body {
             direction: rtl;
-            text-align:right;
+            text-align: right;
         }
+
         .content-form {
             display: inline-flex;
             flex-direction: column;
@@ -77,16 +125,18 @@
             padding: 15px;
             width: 500px;
         }
+
         div.card-body {
             direction: rtl;
         }
+
         textarea {
             overflow: auto;
             resize: vertical;
             width: 400px;
         }
     </style>
-    <link href="style.css" rel="stylesheet" />
+    <!--<link href="style.css" rel="stylesheet" />-->
     <!--<link href="StyleMain.css" rel="stylesheet" />-->
     <script src="../Scripts/ajaxCalls.js"></script>
     <script>
@@ -98,10 +148,11 @@
                 localStorage.clear();
             });
             $("#getShow").click(showRend);
-            $("#getShow").click(showVideo);
+            /*$("#getShow").click(showVideo);*/
             $("#saveItem").click(saveItemD);
-            showVideoTitle();
+            /*showVideoTitle();*/
             $("#vlist").change(getUrl);
+            $("#showthevideo").click(showVideoTitle);
         });
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -169,6 +220,25 @@
             $("#id-input").val(sid[by].innerHTML);
             $("#desc-input").val(desc[by].innerHTML);
         }
+        /*chance*/
+        let arr = [];
+        function showVideoTitle() {
+            console.log("in rend");
+            let api = "../api/Videos";
+            ajaxCallLocal("GET", api, "", getTitle, getTitleError);
+        }
+        function getTitle(data) {
+            console.log("success");
+            strTitle = '<option value="-1">בחר</option>';
+            for (var i = 0; i < data.length; i++) {
+                strTitle += '<option value=' + data[i].Id + '>' + data[i].Title + '</option>'
+            }
+            $("#vlist").append(strTitle);
+        }
+        function getTitleError(data) {
+            console.log("faild")
+        }
+        /*chance*/
         //save the item details and show in item save page
         function saveItemD() {
             console.log("in save item");
@@ -201,7 +271,6 @@
             let page_acces_token = httpGet(url_get_page_access);
             var resp = JSON.parse(page_acces_token);
             let postUrl = "https://graph.facebook.com/" + pageId + "/feed?message=" + document.getElementById('desc-input').value + "&access_token=" + resp.access_token;
-
             let res = httpPost(postUrl);
             console.log(res);
         }
@@ -209,21 +278,28 @@
         function sendPostTwitt(cntr) {
             alert("Twitter!");
             console.log("trying to get page id from twitter API");
-
-            let twitterURL = "https://api.twitter.com/1.1/statuses/update.json";
-
-            //let twitUrl = "https://api.twitter.com/2/tweets/search/stream/rules"
-            //let content = RequestPost(twitUrl);
             let apiTwit = "../api/Twitter";
-            ajaxCall("POST", apiTwit, "", RequestTwittSuccess, RequestTwittError);
+            ajaxCall("GET", apiTwit, "", RequestTwittSuccess, RequestTwittError);
         }
         // the request twitter
         function RequestTwittSuccess(data) {
             console.log("Success!!!");
+            console.log(data);
+            DataT = data;
+            postUrlTwitt = "https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value + "&access_token=" + DataT;
+
+            let resT = TwittPost(postUrlTwitt);
+            console.log(resT);
         }
         // the request to post twitter
         function RequestTwittError(err) {
             console.log("Error!!!");
+        }
+        function TwittPost(url) {
+            var xml = new XMLHttpRequest();
+            xml.open('POST', url, false);
+            xml.send();
+            return xml.responseText;
         }
         function httpGet(url) {
             var xml = new XMLHttpRequest();
@@ -305,6 +381,54 @@
         function getErrorItem(data) {
             console.log("NOOOOOO")
         }
+        //c
+        //function publish() {
+        //    let ttr = document.getElementById('desc-input').value;
+        //    $("data-text").append(ttr);
+        //}
+        function getUrl() {
+            let id = $("#vlist").val();
+            let api = "../api/videos/getItem?id=" + id;
+            ajaxCallLocal("GET", api, "", getSuccessItem, getErrorItem);
+        }
+        function getSuccessItem(data) {
+            $("#frame").html('').append($('', { src: 'blah.gif' }));
+            console.log("YAHOOO");
+            console.log(data[0].Ifrmae)
+            let video = data[0].Ifrmae
+            $("#frame").append(video);
+            let startDate = "2021-05-17T12:00";
+            let endDate = "2021-05-17T14:00";
+
+            let api12 = "../api/Videos?from=" + startDate + "&to=" + endDate;
+
+            ajaxCall("GET", api12, "", suc, err);
+            console.log("heee");
+        }
+        function getErrorItem(err) {
+            console.log(err);
+        }
+        function suc(data) {
+            $("#aaa").html('').append($('', { src: 'blah.gif' }));
+            console.log("yess")
+            console.log(data)
+            arr = JSON.parse(data);
+            console.log(arr.GetPlaybackResult.Result)
+            video = `<video id="my-video"
+                                                                class="video-js"
+                                                                controls
+                                                                preload="auto"
+                                                                width="720px"
+                                                                height="264"
+                                                                data-setup="{}">
+                                                                <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
+                                                            </video>`
+            $("#aaa").append(video);
+
+        }
+        function err(err) {
+            console.log(err);
+        }
     </script>
 </head>
 <body>
@@ -330,9 +454,12 @@
                 <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="userName" href="#" style="margin-right: 600px"></a>
+                <a class="nav-link" href="#" onclick="document.location='Analytics.html'">ניתוחים</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" style="float:left">
+                <a class="nav-link" id="userName" href="#"></a>
+            </li>
+            <li class="nav-item" style="float:left">
                 <a class="nav-link" id="logOut" href="#">Log Out</a>
             </li>
         </ul>
@@ -353,9 +480,20 @@
             </div>
             <div class="col-sm-8">
                 <div class="search_item">
-                    <h5>בחר סרטון מהרשימה</h5>
+                    <!--<h5>בחר סרטון מהרשימה</h5>
                     <select id="vlist">
-                    </select>
+                    </select>-->
+                    <!--chance-->
+                    <h5>בחר שעת תוכנית</h5>
+                    <input id="startdate" class="form-control" type="text" placeholder="StartDate" aria-label="readonly input example">
+                    <input id="enddate" class="form-control" type="text" placeholder="EndDate" aria-label="readonly input example">
+                    <button id="showthevideo" type="button" class="btn btn-primary">משיכת Program</button>
+                    <div id="aaa">
+
+
+
+                    </div>
+                    <!--chance-->
                 </div>
                 <div id="frame" class="search_item">
                 </div>
@@ -375,15 +513,37 @@
                             <!--<img src="https://img.icons8.com/fluent/50/000000/twitter.png" />-->
                             <!--<img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" />-->
                             <!--<img src="https://img.icons8.com/officel/50/000000/youtube.png" />-->
-                            <fb:login-button scope="public_profile,email"
+                            <div id="social">
+                                <fb:login-button scope="public_profile,email"
+                                                 onlogin="checkLoginState();">
+                                </fb:login-button>
+                                <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
+                                   class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>
+                            </div>
+                            <!--<fb:login-button scope="public_profile,email"
                                              onlogin="checkLoginState();">
                             </fb:login-button>
-                            <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" 
-                               class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>
+                            <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
+                               class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
                             <button id="saveItem">Save Item</button>
                             <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
                             <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
+                            <!--<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                               data-show-count="false">Tweet</a>-->
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             <!--<a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <!--<a class="twitter-share-button"
+       href="https://twitter.com/intent/tweet">
+        Tweet
+    </a>-->
+                            <!--<a class="twitter-share-button"
+                               href="https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value>
+                                Tweet
+                            </a>-->
+
+                            
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" onclick="publish()" data-text="" data-show-count="false">Tweet</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
@@ -397,7 +557,14 @@
             </div>
         </div>
     </div>
-     <div id="pphh"></div>
+    
+    <div id="pphh">
+        <!--test-->
+        <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">test😀</p>&mdash; rupi46 (@rupi46) 
+        <a href="https://twitter.com/rupi46/status/1396040683681615875?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+
+    </div>
      <div class="jumbotron text-center" style="margin-bottom:0">
          <p>Footer</p>
      </div>

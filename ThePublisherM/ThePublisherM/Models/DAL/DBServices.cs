@@ -13,6 +13,7 @@ using System.Web.Http.Filters;
 using System.Windows;
 using System.Configuration;
 using ThePublisherM.Models;
+using Newtonsoft.Json.Linq;
 
 namespace ThePublisherM.Models.DAL
 {
@@ -20,6 +21,103 @@ namespace ThePublisherM.Models.DAL
     {
         public SqlDataAdapter da;
         public DataTable dt;
+        //c
+        string connString;
+
+        //c
+        public DBServices()
+        {
+            connString = System.Configuration.ConfigurationManager.ConnectionStrings["DBConnectionString"].ConnectionString.ToString();
+        }
+        //c
+        public DataTable Select(string query)
+        {
+            SqlConnection con;
+            SqlCommand cmd;
+            try
+            {
+                con = connect("DBConnectionString"); // create the connection
+            }
+            catch (Exception ex)
+            {
+                // write to log
+                throw (ex);
+            }
+            DataTable dt = new DataTable();
+            cmd = CreateCommand(query, con);
+
+            try
+            {
+                dt.Load(cmd.ExecuteReader()); // execute the command
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                // write to log
+                throw (ex);
+            }
+
+            finally
+            {
+                if (con != null)
+                {
+                    // close the db connection
+                    con.Close();
+                }
+            }
+
+        }
+        //c
+        public int Update(string query)
+        {
+
+            SqlConnection con;
+            SqlCommand cmd;
+
+            try
+            {
+                con = connect("DBConnectionString"); // create the connection
+            }
+            catch (Exception ex)
+            {
+                // write to log
+                throw (ex);
+            }
+
+            //String cStr = BuildInsertCommand(saveditems);      // helper method to build the insert string
+
+            cmd = CreateCommand(query, con);             // create the command
+
+            try
+            {
+                int numEffected = cmd.ExecuteNonQuery(); // execute the command
+                return numEffected;
+            }
+            catch (Exception ex)
+            {
+                // write to log
+                throw (ex);
+            }
+
+            finally
+            {
+                if (con != null)
+                {
+                    // close the db connection
+                    con.Close();
+                }
+            }
+
+        }
+        public SqlConnection connect(String conString)
+        {
+
+            // read the connection string from the configuration file
+            string cStr = WebConfigurationManager.ConnectionStrings[conString].ConnectionString;
+            SqlConnection con = new SqlConnection(cStr);
+            con.Open();
+            return con;
+        }
 
         public Manager ReadManager(string email, string password)
         {
@@ -112,15 +210,7 @@ namespace ThePublisherM.Models.DAL
 
             return cmd;
         }
-        public SqlConnection connect(String conString)
-        {
-
-            // read the connection string from the configuration file
-            string cStr = WebConfigurationManager.ConnectionStrings[conString].ConnectionString;
-            SqlConnection con = new SqlConnection(cStr);
-            con.Open();
-            return con;
-        }
+        
 
         //insert save item
         public int SaveItemDetails(SavedItem savedItem)

@@ -18,7 +18,7 @@ namespace ThePublisherM.Controllers
         // GET api/<controller>
         public DataTable Get()
         {
-            DBServicesS ds = new DBServicesS();
+            DBServices ds = new DBServices();
             string query = "SELECT * FROM SaveItem_2021";
             return ds.Select(query);
         }
@@ -31,14 +31,14 @@ namespace ThePublisherM.Controllers
         public void Put(int storyNum, [FromBody] RowEdit value)
         {
             string q = "UPDATE SaveItem_2021 SET description='" + value.description + "', title='" + value.title + "' WHERE storyNum=" + storyNum;
-            DBServicesS ds = new DBServicesS();
+            DBServices ds = new DBServices();
             ds.Update(q);
         }
         // DELETE api/<controller>/5
         public void Delete(int storyNum)
         {
             string q = "DELETE FROM SaveItem_2021 WHERE storyNum=" + storyNum;
-            DBServicesS ds = new DBServicesS();
+            DBServices ds = new DBServices();
             ds.Update(q);
         }
         // GET api/<controller>

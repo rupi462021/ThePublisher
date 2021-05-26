@@ -6,6 +6,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Tweetinvi;
 
 namespace ThePublisherM.Models.DAL
 {
@@ -14,6 +15,7 @@ namespace ThePublisherM.Models.DAL
         public SqlDataAdapter da;
         public DataTable dt;
         string connString;
+        
         public DBServ()
         {
             connString = System.Configuration.ConfigurationManager.ConnectionStrings["DBConnectionString"].ConnectionString.ToString();
