@@ -19,21 +19,29 @@ namespace ThePublisherM.Models
         string title;
         int storyNum;
         string description;
+        DateTime startDate;
+        DateTime endDate;
+        
+        
 
-        public Twitter(int id, string title, int storyNum, string description)
+        public Twitter() { }
+
+        public Twitter(int id, string title, int storyNum, string description, DateTime startDate, DateTime endDate)
         {
             Id = id;
             Title = title;
             StoryNum = storyNum;
             Description = description;
+            StartDate = startDate;
+            EndDate = endDate;
         }
 
         public int Id { get => id; set => id = value; }
         public string Title { get => title; set => title = value; }
         public int StoryNum { get => storyNum; set => storyNum = value; }
         public string Description { get => description; set => description = value; }
-
-        public Twitter() { }
+        public DateTime StartDate { get => startDate; set => startDate = value; }
+        public DateTime EndDate { get => endDate; set => endDate = value; }
 
         public string AuthenticatTwitter() 
         {
@@ -46,5 +54,11 @@ namespace ThePublisherM.Models
             DBS dbs = new DBS();
             return dbs.GetUserTimelineJson(bearerToken, screenName, count, excludeReplies, includeRTs);
         }
+        //test
+        //public Twitter GetTweetByDate(DateTime startDate, DateTime endDate)
+        //{
+        //    DBS dbs = new DBS();
+        //    return dbs.GetDate(startDate, endDate);
+        //}
     }
 }

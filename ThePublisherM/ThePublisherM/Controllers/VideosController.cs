@@ -10,11 +10,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-//using Microsoft.Ajax.Utilities;
-//using Newtonsoft.Json;
-//using Newtonsoft.Json.Linq;
-//using ThePublisherM.Models.DAL;
-//using RestSharp;
 
 
 namespace ThePublisherM.Controllers
@@ -22,8 +17,7 @@ namespace ThePublisherM.Controllers
 
     public class VideosController : ApiController
     {
-        private object tokens;
-        private string aa;
+
         // GET api/<controller>
         //public List<Video> Get()
         //string Token;
@@ -42,7 +36,7 @@ namespace ThePublisherM.Controllers
             var client = new RestClient("http://10.120.17.160:8701/VelaEncompassService/API/Authenticate ");
             client.Timeout = -1;
             var request = new RestRequest(Method.POST);
-            request.AddHeader("Content-Type", "application/json");
+            request.AddHeader("Content-Type","application/json");
             request.AddParameter("application/json", "{\r\n\"User\":\"shimiab\",\r\n\"Password\":\"Sa123456\"\r\n}\r\n", ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             string x = response.Content;
@@ -59,16 +53,15 @@ namespace ThePublisherM.Controllers
             //    //return tokens;
 
         }
-        public string Get(string from, string to)
+        public string Get(string from, string to, string date)
         {
             string x = Token();
-            var client = new RestClient("http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=" + from + "&end_datetime=" + to);
+            var client = new RestClient("http://10.120.17.160:8701/VelaEncompassService/API/GetPlayback?callsign=26cf1d0b-0e71-420b-ae78-b023e62d0a41&start_datetime=" + date + "T" + from + "&end_datetime=" + date + "T" + to);
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
             request.AddHeader("Token", x);
             IRestResponse response = client.Execute(request);
             Console.WriteLine(response.Content);
-
             return response.Content;
 
         }

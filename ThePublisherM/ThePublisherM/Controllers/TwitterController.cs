@@ -32,6 +32,12 @@ namespace ThePublisherM.Controllers
             Twitter twi = new Twitter();
             return twi.GetUserTimeline(bearerToken, screenName, count, excludeReplies, includeRTs);
         }
+        //public Twitter Get(DateTime startDate, DateTime endDate)
+        //{
+        //    Twitter twit = new Twitter();
+        //    return twit.GetTweetByDate(startDate, endDate);
+
+        //}
 
         //public string Get(int id)
         //{

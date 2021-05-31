@@ -37,6 +37,13 @@
     <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
     <script src="../assets/js/demo.js"></script>
     <!--<link href="style.css" rel="stylesheet" />-->
+    <!--  jQuery -->
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+    <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+    <!--<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />-->
+    <!-- Bootstrap Date-Picker Plugin -->
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />-->
     <style>
         .fakeimg {
             height: 600px;
@@ -75,10 +82,19 @@
     </style>
     <link href="style.css" rel="stylesheet" />
     <script src="../Scripts/ajaxCalls.js"></script>
+    <!--  jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
+    <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
     <script>
         $(document).ready(function () {
             console.log("inAnalytics!");
+            $("#dateForm").submit(f1);
             demo.initDashboardPageCharts();
 
             demo.showNotification();
@@ -88,9 +104,8 @@
                 localStorage.clear();
             });
             $("#getData").click(showData);
-
-
-
+            /*$("#dateForm").submit(f1);*/
+            
         });
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -101,6 +116,39 @@
                 tastStr = [];
             }
         }
+        function f1() {
+            checkDates();
+            return false; // the return false will prevent the form from being submitted
+            // hence the page will not reload
+        }
+        function checkDates() {
+            console.log("In check!");
+            StartDate = $("#datemin").val();
+            EndDate = $("#datemax").val();
+            /*let apiTwitD = "../api/Twitter";*/
+            //ajaxCall("GET", apiTwitD, "", RequestDateSuccess, RequestDateError);
+            let apiTwitD = "../api/Twitter?startDate=" + StartDate + "&endDate=" + EndDate;
+            ajaxCall("GET", apiTwitD, "", RequestDateSuccess, RequestDateError);
+            //StartDate = $("#datemin").val();
+            //EndDate = $("#datemax").val();
+            //getURLdate = "https://api.twitter.com/2/tweets/search/recent?query=from:rupi46&tweet.fields=created_at&expansions=author_id&user.fields=description";
+            //check if there is item in this date in twitter api
+            //let api = "../api/Customer?email=" + valEmail;
+            //ajaxCall("GET", api, "", getcheckUserSuccess, getcheckUserError);
+            //getURLdate = "https://twitter.com/2/tweets/search/recent?query=from:rupi46&tweet.fields=created_at&expansions=author_id&user.fields=description";
+
+            /*console.log(getURLdate);*/
+        }
+        function RequestDateSuccess(data) {
+            console.log(data);
+            DataT = data;
+            //getURLdate = "https://api.twitter.com/2/tweets/search/recent?query=from:rupi46&tweet.fields=created_at&expansions=author_id&user.fields=description";
+
+        }
+        function RequestDateError(err) {
+            console.log(err);
+        }
+
         function showData() {
             console.log("in Twitt!");
             let apiTw = "../api/Twitter";
@@ -108,7 +156,21 @@
         }
         function getTokenSuccess(data) {
             console.log(data);
-            GetTweets(data);
+            let appId = "20770234";
+            /*"https://api.twitter.com/1.1/users/show.json?screen_name=".$user*/
+
+            /*GetTweets(data);*/
+            /*https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=rupi46&count=2*/
+            /*postUrlTwitt = "https://twitter.com/search?q=%40rupi46";*/
+            postUrlTwitt = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=rupi46&count=2";
+            //https://twitter.com/rupi46/status/1397871372089675776
+            //"author_id": "1386642625248301059",
+            //"data": {
+            //    "id": "1386642625248301059",
+            //        "name": "rupi46",
+            //            "username": "rupi46"
+            //}
+            console.log(postUrlTwitt);
         }
         function getTokenError(err) {
             console.log(err);
@@ -185,6 +247,26 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
+                        <h2>טווח תאריכים לחיפוש</h2>
+
+                        <form id="dateForm">
+                            <label for="datemin">תאריך התחלתי:</label>
+                            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+                            <label for="datemax">תאריך סופי:</label>
+                            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+                            <input type="submit" value="Submit">
+                        </form>                       
+                    </div>
+                    
+                    <div class="col-12">
+                        <select name="order_by" class="order_by_selected_list">
+                            <option value="init">Sort tweets by...</option>
+                            <option value="likes">Likes</option>
+                            <option value="reply">Reply</option>
+                            <option value="rt">Retweet</option>
+                        </select>
                         <button id="getData" type="button" class="btn btn-primary">Get Twitter</button>
                     </div>
                 </div>

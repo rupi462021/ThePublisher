@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--  jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <title></title>
+    <style>
+        body {
+            direction: rtl;
+            width: 100%;
+        }
+        /*@media (min-width: 992px) .bootstrap-iso .col-md-6 {
+            width: 100%;
+        }*/
+    </style>
+    <script>
+        $(document).ready(function () {
+            var date_input = $('input[name="date"]'); //our date input has the name "date"
+            var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+            var options = {
+                format: 'mm/dd/yyyy',
+                container: container,
+                todayHighlight: true,
+                autoclose: true,
+            };
+            date_input.datepicker(options);
+
+            //var cal = $(element).data("calendarpicker");
+            //console.log(cal.val());
+            //var cal = $(element).data("calendarpicker");
+            //console.log(cal.val());
+            //cal.val("1972/12/21");
+            
+
+        })
+    </script>
+</head>
+<body>
+
+    <div class="bootstrap-iso">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+
+                    Form code begins
+                    <form method="post">
+                        <div class="form-group">
+                            Date input
+                            <label class="control-label" for="date">Date</label>
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+                        </div>
+                        <div class="form-group">
+                            Submit button
+                            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                        </div>
+                    </form>
+                    Form code ends
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div id="login">
+        <form action="table.php" method="POST">
+            From date: <input type="text" name="from_date" required>
+            <input type="text" name="referer" style="display: none" value="<?=$from_date?>">
+            <br />
+            <br />
+            To date: <input type="text" name="to_date" required>
+            <input type="text" name="referer" style="display: none" value="<?=$to_date?>">
+            <input type="submit" name="submit" value="Enter">
+        </form>
+        <p>xxxx-xx-x</p>
+    </div>-->
+    <!--<input type="text"
+           data-role="calendarpicker" id="dp2"
+           data-on-change="$('#dp1').attr('value', (arguments[0]))">
+
+    <input type="text"
+           data-role="calendarpicker" id="dp1" data-format="%d %b %Y">-->
+    <h2>Date Field Restrictions</h2>
+
+    <p>Use the min and max attributes to add restrictions to dates:</p>
+
+    <form action="/action_page.php">
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p><strong>Note:</strong> type="date" is not supported in Safari or Internet Explorer 11 (or earlier).</p>
+
+</body>
+</html>

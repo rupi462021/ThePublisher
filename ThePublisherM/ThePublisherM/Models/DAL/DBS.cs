@@ -26,6 +26,14 @@ namespace ThePublisherM.Models.DAL
     {
         private const string ApiBaseUrl = "https://api.twitter.com";
 
+        public string TwitterURL;
+        //test
+        //public Twitter GetDate(DateTime startDate, DateTime endDate)
+        //{
+
+        //    TwitterURL = "https://api.twitter.com/2/users/:id/tweets?max_results=5&expansions=author_id&tweet.fields=created_at&user.fields=created_at";
+        //    return TwitterURL;
+        //}
         #region Authentication
         /// <summary>
         /// Gets bearer token for application-only authentication from Twitter API 1.1, obtaining key and  

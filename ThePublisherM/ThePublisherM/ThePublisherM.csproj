@@ -282,8 +282,6 @@
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\ItemController.cs" />
     <Compile Include="Controllers\ManagerController.cs" />
-    <Compile Include="Controllers\RestClient.cs" />
-    <Compile Include="Controllers\RestRequest.cs" />
     <Compile Include="Controllers\SavedItemController.cs" />
     <Compile Include="Controllers\TwitterController.cs" />
     <Compile Include="Controllers\VideosController.cs" />
@@ -351,6 +349,7 @@
     <Content Include="Pages\registration.html" />
     <Content Include="Pages\SavedItems.html" />
     <Content Include="Pages\style.css" />
+    <Content Include="Pages\teatAnalytics.html" />
     <Content Include="Pages\videoPage.html" />
     <Content Include="Scripts\ajaxCalls.js" />
     <Content Include="Scripts\ajaxCallsWithKey.js" />
