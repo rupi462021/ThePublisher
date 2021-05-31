@@ -66,21 +66,21 @@ namespace ThePublisherM.Controllers
         //}
 
         // GET api/<controller>/5
-        [HttpGet]
-        [Route("api/videos/getItem")]
-        public List<Video> Get(string id)
-        {
-            Video video = new Video();
-            List<Video> IList = video.getItem(id);
-            return IList;
-        }
+        //[HttpGet]
+        //[Route("api/videos/getItem")]
+        //public List<Video> Get(string id)
+        //{
+        //    Video video = new Video();
+        //    List<Video> IList = video.getItem(id);
+        //    return IList;
+        //}
 
-        // POST api/<controller>
-        public void Post([FromBody] Video video)
+        //// POST api/<controller>
+        //public void Post([FromBody] Video video)
 
-        {
-            //video.Insert();
-        }
+        //{
+        //    //video.Insert();
+        //}
 
         // PUT api/<controller>/5
         public void Put(int id, [FromBody] string value)

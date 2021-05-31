@@ -156,10 +156,7 @@
                 localStorage.clear();
             });
             $("#getShow").click(showRend);
-            /*$("#getShow").click(showVideo);*/
             $("#saveItem").click(saveItemD);
-            /*showVideoTitle();*/
-            /*$("#vlist").change(getUrl);*/
             $("#testg").click(showVideoTitle);
         });
         function checkUser() {
@@ -187,9 +184,9 @@
             $("#showItems").empty();
             $("#showItems").html("");
             str = "";
-            for (var i = 0; i < Data.length; {
-                str += "<div id='accordion'>"
-                        str += "<div id='" + i + "' class='card'><div class='card-header'>";
+            for (var i = 0; i < Data.length; i++) {
+                str += "<div id='accordion'>";
+                str += "<div id='" + i + "' class='card'><div class='card-header'>";
                 str += "<a class='card-link' data-toggle='collapse' href='#collapseOne'>"
                             + Data[i].ShowTitle + "</a >";
                 str += "<a href='#' id='" + i + "' class='btn btn-primary' onclick='sendText(this)'>" + " עריכה " + "</a>";
@@ -225,7 +222,6 @@
             let startDate = $("#startTime").val();
             let endDate = $("#endTime").val();
             console.log(endDate);
-            /*    let api = "../api/student/" + startDate + "/date/" + endDate;*/
             let api = "../api/Videos?from=" + startDate + "&to=" + endDate + "&date=" + date;
             
             ajaxCall("GET", api, "", suc, err);
@@ -254,18 +250,7 @@
         function err(err) {
             console.log(err);
         }
-        //function getTitle(data) {
-        //    console.log("success");
-        //    strTitle = '<option value="-1">בחר</option>';
-        //    for (var i = 0; i < data.length; i++) {
-        //        strTitle += '<option value=' + data[i].Id + '>' + data[i].Title + '</option>'
-        //    }
-        //    $("#vlist").append(strTitle);
-        //}
-        //function getTitleError(data) {
-        //    console.log("faild")
-        //}
-        /*chance*/
+
         //save the item details and show in item save page
         function saveItemD() {
             console.log("in save item");
