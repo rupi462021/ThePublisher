@@ -212,7 +212,7 @@
             var desc = $("p.scriptC");
             $("#title-input").val(tit[by].innerHTML);
             $("#id-input").val(sid[by].innerHTML);
-            $("#desc-input").val(desc[by].innerHTML);
+            $("#desc-input").val(desc[by].innerHTML + document.getElementById( 'vid_lbl').innerHTML);
         }
         /*chance*/
         let arr = [];
@@ -232,6 +232,9 @@
             console.log(data)
             arr = JSON.parse(data);
             console.log(arr.GetPlaybackResult.Result)
+           
+            //document.getElementById('vid_lbl').innerHTML = arr.GetPlaybackResult.Result;
+            document.getElementById('vid_lbl').innerHTML = "http://..";
             video = `<video id="my-video"
                                         class="video-js"
                                         controls
@@ -257,11 +260,13 @@
             let _title = $("#title-input").val();
             let _storyNum = $("#id-input").val();
             let _description = $("#desc-input").val();
+            let link = document.getElementById('vid_lbl').innerHTML;
             let savedItem = { // Note that the name of the fields must be identical to the names of the properties of the object in the server
 
                 Title: _title,
                 StoryNum: _storyNum,
-                Description: _description
+                Description: _description,
+                Link: link
             }
             ajaxCall("POST", "../api/SavedItem", JSON.stringify(savedItem), postSaveSuccess, postSaveError);
         }
@@ -293,6 +298,49 @@
             let apiTwit = "../api/Twitter";
             ajaxCall("GET", apiTwit, "", RequestTwittSuccess, RequestTwittError);
         }
+        function sendPostInstagram() {
+            let ig_user_id = "17841447421624560";
+            let user_token = sessionStorage.getItem("token");
+            let message = document.getElementById('desc-input').value;
+            let mockupVideoUrl = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4";
+
+            let createContainerReq = "https://graph.facebook.com/" + ig_user_id + "/media?media_type=VIDEO&video_url=" + mockupVideoUrl + "&caption=" + message + "&access_token=" + user_token;
+
+            let tryGetContainerId = httpPost(createContainerReq);
+            var resp = JSON.parse(tryGetContainerId);
+            if (resp.id) {
+                let checkContainerStatusReq = "https://graph.facebook.com/" + resp.id + "?fields=status_code&access_token=" + user_token;
+
+                var interval = setInterval(check, 1000);
+                var tryCheck = undefined;
+                function check() {
+                    tryCheck = httpGet(checkContainerStatusReq);
+                    var constatus = JSON.parse(tryCheck);
+                    if (constatus.status_code) {
+                        if (constatus.status_code == "FINISHED") {
+                            clearInterval(interval);
+                            let publishReq = "https://graph.facebook.com/" + ig_user_id + "/media_publish?creation_id=" + resp.id + "&access_token=" + user_token;
+                            let tryPublish = httpPost(publishReq);
+                            var publichResponse = JSON.parse(tryPublish);
+                            if (publichResponse.id) {
+                                //published successfully
+                                console.log("published successfully");
+                            }
+
+                        }
+                        else if (constatus.status_code != "IN_PROGRESS") {
+                            //show error to user
+                            clearInterval(interval);
+                        }
+                    }
+                    else {
+                        //show error to user
+                        clearInterval(interval);
+                    }
+                }
+            }
+        }
+
         // the request twitter
         function RequestTwittSuccess(data) {
             console.log("Success!!!");
@@ -318,7 +366,8 @@
             var xml = new XMLHttpRequest();
             xml.open('GET', url, false);
             xml.send(null);
-            alert(xml.responseText);
+            //alert(xml.responseText);
+            console.log(xml.responseText);
             return xml.responseText;
         }
         function httpPost(url) {
@@ -464,6 +513,8 @@
                                 <input id="title-input" type="text" name="title-input" value="" /><br>
                                 <label for="id-input">מספר תכנית</label>
                                 <input id="id-input" type="text" name="id-input" value="" />
+                                <br />
+                                <label id="vid_lbl"></label>
                             </div>
                             <div>
                                 <label for="desc-input">תאור</label>
@@ -480,15 +531,16 @@
                                    class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>
                             </div>
                             <!--<fb:login-button scope="public_profile,email"
-                                             onlogin="checkLoginState();">
-                            </fb:login-button>
-                            <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
-                               class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
+                     onlogin="checkLoginState();">
+    </fb:login-button>
+    <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
+       class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
                             <button id="saveItem">Save Item</button>
                             <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
+                            <button onclick="sendPostInstagram()" id="testBtn">Post Instagram</button>
                             <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
                             <!--<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
-                               data-show-count="false">Tweet</a>-->
+       data-show-count="false">Tweet</a>-->
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             <!--<a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -497,11 +549,11 @@
         Tweet
     </a>-->
                             <!--<a class="twitter-share-button"
-                               href="https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value>
-                                Tweet
-                            </a>-->
+       href="https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value>
+        Tweet
+    </a>-->
 
-                            
+
                             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" onclick="publish()" data-text="" data-show-count="false">Tweet</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
