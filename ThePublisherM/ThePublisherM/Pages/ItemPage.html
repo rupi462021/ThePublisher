@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Show Room</title>
     <meta charset="utf-8">
@@ -12,19 +12,19 @@
     <link href="style.css" rel="stylesheet" />
 
     <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
             crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
@@ -33,13 +33,16 @@
     <script src="../Scripts/jquery-3.4.1.min.js"></script>
 
     <script src="https://apis.google.com/js/api.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link href="style.css" rel="stylesheet" />
     <script src="../Scripts/ajaxCalls.js"></script>
 
-    >>>>>>> Stashed changes
-    <!--ch-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
     <!--<script src="../Scripts/jquery-3.4.1.min.js"></script>-->
 
     <style>
@@ -109,7 +112,7 @@
             display: inline-flex;
             flex-direction: column;
             justify-content: space-around;
-            height: 500px;
+            /*height: 500px;*/
             background-color: lightgray;
             border: 1px solid #adb5bd;
             padding: 15px;
@@ -150,6 +153,17 @@
     <script>
         $(document).ready(function () {
             console.log("ready!");
+            $('#twitter-button').on('click', function () {
+                // Initialize with your OAuth.io app public key
+                OAuth.initialize('V4oF97dwIJsnASOirzOIn29X_cA');
+                // Use popup for OAuth
+                OAuth.popup('twitter').then(twitter => {
+                    console.log(twitter);
+                    // Retrieves user data from oauth provider
+                    console.log(twitter.me());
+                });
+            });
+
             checkUser();
             $("#logOut").click(function () {
                 document.location = "login.html";
@@ -188,7 +202,7 @@
                 str += "<div id='accordion'>";
                 str += "<div id='" + i + "' class='card'><div class='card-header'>";
                 str += "<a class='card-link' data-toggle='collapse' href='#collapseOne'>"
-                            + Data[i].ShowTitle + "</a >";
+                    + Data[i].ShowTitle + "</a >";
                 str += "<a href='#' id='" + i + "' class='btn btn-primary' onclick='sendText(this)'>" + " עריכה " + "</a>";
                 str += "<div id='collapseOne' id='" + i + "' class='collapse show' data-parent='#accordion'>";
                 str += "<div class='card-body'><p>מספר תוכנית: " + Data[i].ShowId + "</p>";
@@ -212,7 +226,7 @@
             var desc = $("p.scriptC");
             $("#title-input").val(tit[by].innerHTML);
             $("#id-input").val(sid[by].innerHTML);
-            $("#desc-input").val(desc[by].innerHTML + document.getElementById( 'vid_lbl').innerHTML);
+            $("#desc-input").val(desc[by].innerHTML + document.getElementById('vid_lbl').innerHTML);
         }
         /*chance*/
         let arr = [];
@@ -223,32 +237,39 @@
             let endDate = $("#endTime").val();
             console.log(endDate);
             let api = "../api/Videos?from=" + startDate + "&to=" + endDate + "&date=" + date;
-            
+
             ajaxCall("GET", api, "", suc, err);
         }
         function suc(data) {
             $("#aaa").html('').append($('', { src: 'blah.gif' }));
             console.log("yess")
-            console.log(data)
+            console.log(data);
             arr = JSON.parse(data);
-            console.log(arr.GetPlaybackResult.Result)
-           
+            console.log(arr.GetPlaybackResult.Result);
+
             //document.getElementById('vid_lbl').innerHTML = arr.GetPlaybackResult.Result;
+
             document.getElementById('vid_lbl').innerHTML = "http://..";
             video = `<video id="my-video"
-                                        class="video-js"
-                                        controls
-                                        preload="auto"
-                                        width="720px"
-                                        height="264"
+                                                class="video-js"
+                                                controls
+                                                preload="auto"
+                                                width="720px"
+                                                height="264"
 
 
-                                        data-setup="{}">
-                                        <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
+                                                data-setup="{}">
+                                                <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
+                                                
 
-                                    </video>`
+                                            </video>`
             $("#aaa").append(video);
-
+            console.log("<a href='${ arr.GetPlaybackResult.Result }'></a>");
+            //let attst = arr["GetPlaybackResult"].Result;
+            //video.src = attst;
+            //console.log(attst);
+            //var videoUrl = createObjectURL(attst);
+            //console.log(videoUrl);
         }
         function err(err) {
             console.log(err);
@@ -293,7 +314,7 @@
         }
         // function for posting in twitter!!should be comm
         function sendPostTwitt(cntr) {
-            alert("Twitter!");
+            /*alert("Twitter!");*/
             console.log("trying to get page id from twitter API");
             let apiTwit = "../api/Twitter";
             ajaxCall("GET", apiTwit, "", RequestTwittSuccess, RequestTwittError);
@@ -346,21 +367,20 @@
             console.log("Success!!!");
             console.log(data);
             DataT = data;
-            
-            /*GET https://api.twitter.com/1.1/statuses/home_timeline.json*/
-            /*postUrlTwitt = "https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value;*/
             postUrlTwitt = "https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value + "&access_token=" + DataT;
             console.log(postUrlTwitt);
-            
-            //open in same page           
-          /*window.open(postUrlTwitt, '',);*/
+
+            //open in same page
+            /*window.open(postUrlTwitt, '',);*/
 
             //open in new window
-            TwitterWindow = window.open(postUrlTwitt, 'TwitterWindow', width = 600, height = 300);                      
+            /*TwitterWindow = window.open(postUrlTwitt, 'TwitterWindow', width = 600, height = 300);*/
+            TwitterWindow = window.open(postUrlTwitt, 'TwitterWindow', true);
+
         }
         // the request to post twitter
         function RequestTwittError(err) {
-            console.log("Error!!!");
+            console.log(err);
         }
         function httpGet(url) {
             var xml = new XMLHttpRequest();
@@ -412,8 +432,8 @@
                 statusChangeCallback(response);
             });
         }
-        
-        
+
+
     </script>
 </head>
 <body>
@@ -439,13 +459,13 @@
                 <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" onclick="document.location='Analytics.html'">ניתוחים</a>
+                <a class="nav-link" href="#" onclick="document.location='TwitterAnalytics.html'">ניתוחים</a>
             </li>
             <li class="nav-item" style="float:left">
                 <a class="nav-link" id="userName" href="#"></a>
             </li>
             <li class="nav-item" style="float:left">
-                <a class="nav-link" id="logOut" href="#">Log Out</a>
+                <a class="nav-link" id="logOut" href="#">התנתק</a>
             </li>
         </ul>
     </nav>
@@ -465,10 +485,8 @@
             </div>
             <div class="col-sm-8">
                 <div class="search_item">
-                    <!--<h5>בחר סרטון מהרשימה</h5>
-    <select id="vlist">
-    </select>-->
-                    <!--chance-->
+
+
                     <h5>בחר שעת תוכנית</h5>
                     <div class="form-group">
                         <label for="dealerPhone"><span class="red-star">★ </span>date (In Format yyyy-mm-dd )</label>
@@ -498,13 +516,14 @@
                     <button id="testg">חיתוך</button>
 
                     <div id="aaa">
-
+                        <!--<a href=""></a>-->
 
                     </div>
-                    
+
                 </div>
                 <div id="frame" class="search_item">
                 </div>
+                <hr>
                 <div class="row">
                     <div class="col">
                         <div class="content-form">
@@ -520,42 +539,26 @@
                                 <label for="desc-input">תאור</label>
                                 <textarea id="desc-input" name="desc-input" rows="10" cols="40"></textarea>
                             </div>
-                            <!--<img src="https://img.icons8.com/fluent/50/000000/twitter.png" />-->
-                            <!--<img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" />-->
-                            <!--<img src="https://img.icons8.com/officel/50/000000/youtube.png" />-->
+                            <!--<img src="https://img.icons8.com/fluent/50/000000/twitter.png" />
+                            <img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" />
+                            <img src="https://img.icons8.com/officel/50/000000/youtube.png" />-->
                             <div id="social">
                                 <fb:login-button scope="public_profile,email"
                                                  onlogin="checkLoginState();">
                                 </fb:login-button>
-                                <a id="caption" href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
-                                   class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>
+
+
+                                <a id="twitter-button" class="btn btn-block btn-social btn-twitter">
+                                    <i class="fa fa-twitter"></i> Sign in with Twitter
+                                </a>
                             </div>
-                            <!--<fb:login-button scope="public_profile,email"
-                     onlogin="checkLoginState();">
-    </fb:login-button>
-    <a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw"
-       class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
+
+
                             <button id="saveItem">Save Item</button>
                             <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
                             <button onclick="sendPostInstagram()" id="testBtn">Post Instagram</button>
                             <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
-                            <!--<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
-       data-show-count="false">Tweet</a>-->
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            <!--<a href="https://twitter.com/intent/tweet?button_hashtag=login&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #login</a>-->
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            <!--<a class="twitter-share-button"
-       href="https://twitter.com/intent/tweet">
-        Tweet
-    </a>-->
-                            <!--<a class="twitter-share-button"
-       href="https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value>
-        Tweet
-    </a>-->
 
-
-                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" onclick="publish()" data-text="" data-show-count="false">Tweet</a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
                 </div>
@@ -564,20 +567,20 @@
         <div class="row">
             <div class="col-sm-4">
             </div>
-            <div class="col-sm-8">              
+            <div class="col-sm-8">
             </div>
         </div>
     </div>
-    
-    <div id="pphh">
-        <!--test-->
-        <!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">test😀</p>&mdash; rupi46 (@rupi46) 
-        <a href="https://twitter.com/rupi46/status/1396040683681615875?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 
+    <!--<div id="pphh">
+        test
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">test😀</p>&mdash; rupi46 (@rupi46)
+        <a href="https://twitter.com/rupi46/status/1396040683681615875?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>-->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p>Footer</p>
     </div>
-     <div class="jumbotron text-center" style="margin-bottom:0">
-         <p>Footer</p>
-     </div>
 </body>
 </html>

@@ -45,6 +45,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EO.Base, Version=21.1.43.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.21.1.43\lib\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser, Version=21.1.43.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.21.1.43\lib\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine, Version=21.1.43.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.21.1.43\lib\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -76,17 +88,11 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=3.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Primitives.3.1.4\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.2.2.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Nito.AsyncEx.Context, Version=1.1.0.0, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitoAsyncEx.Context.StrongName.1.1.0\lib\net461\Nito.AsyncEx.Context.dll</HintPath>
-    </Reference>
-    <Reference Include="Nito.AsyncEx.Tasks, Version=1.1.0.0, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitoAsyncEx.Context.StrongName.1.1.0\lib\net461\Nito.AsyncEx.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="Nito.Disposables, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitoAsyncEx.Context.StrongName.1.1.0\lib\net461\Nito.Disposables.dll</HintPath>
     </Reference>
     <Reference Include="RestClient, Version=3.446.20952.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RestClient.3.446.20952\lib\net472\RestClient.dll</HintPath>
@@ -125,8 +131,8 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Security" />
     <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -214,6 +220,9 @@
     </Reference>
     <Reference Include="Tweetinvi, Version=5.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\TweetinviAPI.5.0.4\lib\netstandard2.0\Tweetinvi.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.AspNet, Version=5.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.AspNetPlugin.5.0.4\lib\netstandard2.0\Tweetinvi.AspNet.dll</HintPath>
     </Reference>
     <Reference Include="Tweetinvi.Controllers, Version=5.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\TweetinviAPI.5.0.4\lib\netstandard2.0\Tweetinvi.Controllers.dll</HintPath>
@@ -340,10 +349,21 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\1200px-Kan11Logo.svg.png" />
+    <Content Include="Images\arrow-1783284_1920.png" />
+    <Content Include="Images\icon-2486501_1920.png" />
     <Content Include="Images\logo_kan.png" />
     <Content Include="Images\logo_ogImageKan.jpg" />
+    <Content Include="Images\old-newspaper-350376_1920.jpg" />
+    <Content Include="Images\phone-292994_1920.jpg" />
+    <Content Include="Images\smartphone-586944_1920.jpg" />
+    <Content Include="Images\social-1834013_1920.png" />
     <Content Include="Images\TV.gif" />
+    <Content Include="Images\twitter-1848505_1280.png" />
+    <Content Include="Images\woman-1446557_1920.jpg" />
     <Content Include="Images\youtube-promotion.jpg" />
+    <Content Include="Pages\HtmlPage1.html" />
+    <Content Include="Pages\TwitterAnalytics.html" />
     <Content Include="Pages\Analytics.html" />
     <Content Include="Pages\documentation.css" />
     <Content Include="Pages\ItemPage.html" />

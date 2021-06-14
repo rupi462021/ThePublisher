@@ -22,6 +22,11 @@ namespace ThePublisherM.Controllers
         //}
 
         // GET api/<controller>/5
+        //public string Get()
+        //{
+        //    auth
+        //}
+        
         public string Get()
         {
             Twitter tw = new Twitter();

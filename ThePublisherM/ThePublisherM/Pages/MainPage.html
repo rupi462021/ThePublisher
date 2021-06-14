@@ -8,14 +8,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" />
     <style>
-        .fakeimg {
-            height: 600px;            
-        }
+        /*.fakeimg {
+            height: 600px;
+        }*/
         .wrap {
             justify-content: space-between;
         }
+
         .logo {
             overflow: hidden;
             text-align: left;
@@ -25,20 +31,52 @@
             color: #1F6C8B;
             font-family: Arial;
         }
+
         #hello_user {
             margin-left: 200px;
-            
         }
+
         img {
-            height: 400px;
+            /*height: 400px;*/
             width: 600px;
         }
+
         body {
             direction: rtl;
         }
+
         .container {
             text-align: right;
+            padding-right: 5px;
+            padding-left: 5px;
+            /*max-width: initial;*/
         }
+
+        #logo_kan {
+            height: 40px;
+            width: 60px;
+        }
+
+        #cards_short {
+            padding: 15px;
+        }
+        .fa{
+            padding: 5px;
+        }
+        #social_card{
+            text-align:center;
+            padding: 5px;
+        }
+        .card-body {
+            border-style: outset;
+        }
+        #title_p{
+            text-align:center;
+        }
+        #header{
+            padding: 10px;
+        }
+        
     </style>
     <script src="../Scripts/ajaxCalls.js"></script>
     <script>
@@ -49,7 +87,7 @@
             $("#logOut").click(function () {
                 document.location = "login.html";
                 localStorage.clear();
-            });           
+            });
         });
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -87,13 +125,13 @@
                     <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="document.location='Analytics.html'">ניתוחים</a>
+                    <a class="nav-link" href="#" onclick="document.location='TwitterAnalytics.html'">ניתוחים</a>
                 </li>
                 <li class="nav-item" style="float:left">
                     <a class="nav-link" id="userName" href="#" ></a>
                 </li>
                 <li class="nav-item" style="float:left">
-                    <a class="nav-link" id="logOut" href="#">Log Out</a>
+                    <a class="nav-link" id="logOut" href="#">התנתק</a>
                 </li>
             </ul>
 
@@ -101,46 +139,101 @@
     </nav>
 
     <div class="container" style="margin-top:20px">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>החדשות שלנו</h2>
-                <h5>הכתבים שלנו בזמן אמת</h5>
-                <!--"<img src=' " + Data.restaurants[i].restaurant.featured_image + "' class='mr-3 mt-3 rounded-circle' />";-->
-                <!--<div class="fakeimg"><img src="../Images/logo_ogImageKan.jpg" width="230" height="200" /></div>-->
-                <p>עם העדכונים הכי חמים</p><br />
-                <h3>התכנים שלנו</h3>
-                <p>בחר תוכן</p><br />
-                <select id="cuisine" name="cuisine" class="custom-select"
-                        style="width:150px;">
-                    <option value="Cuisine type">סוג תוכן</option>
-                    <option value="Indian">חדשות</option>
-                    <option value="French">טלוויזיה</option>
-                    <option value="Italian">רדיו</option>
-                    <option value="Mexican">וידאו</option>
-                    <option value="Chinese">חינוכית</option>
-                </select><br />
+        <div class="row" id="header">
+            <div class="col-9" id="title_p">
+                <h1>המפבלשת</h1>
+                <img src="../Images/icon-2486501_1920.png" />
             </div>
-            <div class="col-sm-8">
-                <h2>וידאו</h2>
-                <div class="fakeimg"><img src="../Images/logo_ogImageKan.jpg" width="600" height="400" /></div>
-                <div class="fakeimg">
-                    <div id="campaignDiv">
+
+            <div class="col-3">
+                <h5>האחרונים בטוויטר</h5>
+                <div id="scroll" style="overflow-y:scroll; overflow-x:hidden; height:400px;">
+                    <a class="twitter-timeline" href="https://twitter.com/rupi46?ref_src=twsrc%5Etfw">Tweets by rupi46</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+
+
+
+        </div>
+        <hr>
+
+
+        <div class="row" id="cards_short">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">יצירת אייטם <i style='font-size:24px' class='fas'>&#xf04a;</i></h4>
+                        <p class="card-text">יצירת אייטם חדש</p>
+                        <a href="ItemPage.html" class="card-link">עבור</a>
                     </div>
-                    <br>
-                    <div id="cuiss">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"> אייטמים שמורים <i style='font-size:24px' class='far'>&#xf07b;</i></h4>
+                        <p class="card-text">אייטמים שמורים</p>
+                        <a href="SavedItems.html" class="card-link">עבור</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"> וידאו <i style='font-size:24px' class='fas'>&#xf03d;</i></h4>
+                        <p class="card-text">מקטעי הווידאו שנוצרו</p>
+                        <a href="videoPage.html" class="card-link">עבור</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
+        <hr>
+        <div class="row" id="social_card">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-uppercase mb-4">ברשתות החברתיות</h4>
+                        <a href="https://twitter.com/kann_news"><i style="font-size:30px" class="fa">&#xf081;</i></a>
+                        <a href="https://www.youtube.com/c/KAN11NEWS/featured"><i style="font-size:30px" class="fa">&#xf167;</i></a>
+                        <a href="https://www.facebook.com/kan.news"><i style="font-size:30px" class="fa">&#xf082;</i></a>
+                        <a href="https://www.instagram.com/kan_news/"><i style="font-size:30px" class="fa">&#xf16d;</i></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-8">
+
+            <!--<div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="text-uppercase mb-4">מיקום</h4>
+                    <h6>בית הדפוס 32 (כנפי נשרים 23), ירושלים</h6>
+                    <h6>יונה קרמנצקי 6, ת"א</h6>
+                    <h6>יהושע הצורף 9, באר שבע</h6>
+                    <h6>ח'ורי 2 - מגדל הנביאים, חיפה</h6>
+                    <h6>076-8098000</h6>
+                </div>
             </div>
+        </div>-->
         </div>
+        <!--<div class="row">
+        <div class="col">
+            <h2>המפבלשת</h2>
+            <p>יצירה ועריכה של אייטמים, והפצה לרשתות החברתיות</p>
+        </div>
+    </div>-->
+
     </div>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <p>Footer</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <img id="logo_kan" src="../Images/1200px-Kan11Logo.svg.png" width="40" height="40" />
+                <br />
+                <a href="https://www.kan.org.il/">www.kan.org.il</a>
+            </div>
+        </div>
+        
     </div>
 </body>
 </html>

@@ -11,9 +11,6 @@ namespace ThePublisherM.Controllers
     public class VideosController : ApiController
     {
 
-        // GET api/<controller>
-        //public List<Video> Get()
-        //string Token;
         public class AuthenticateResult
         {           
             public string message { get; set; }
@@ -30,7 +27,7 @@ namespace ThePublisherM.Controllers
             client.Timeout = -1;
             var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type","application/json");
-            request.AddParameter("application/json", "{\r\n\"User\":\"shimiab\",\r\n\"Password\":\"Sa123456\"\r\n}\r\n", ParameterType.RequestBody);
+            request.AddParameter("application/json", "{\r\n\"User\":\"shimiab\",\r\n\"Password\":\"Aviv8696\"\r\n}\r\n", ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             string x = response.Content;
             Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(response.Content);

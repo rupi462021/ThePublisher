@@ -6,12 +6,16 @@ using Tweetinvi;
 using System.Data;
 using System.Text;
 using System.Web.Configuration;
-
+using System.Net;
+using System.IO;
 using System.Threading.Tasks;
 using ThePublisherM.Models.DAL;
+//using Tweetinvi;
+
 
 namespace ThePublisherM.Models
 {
+    
     
     public class Twitter
     {
@@ -54,11 +58,13 @@ namespace ThePublisherM.Models
             DBS dbs = new DBS();
             return dbs.GetUserTimelineJson(bearerToken, screenName, count, excludeReplies, includeRTs);
         }
+        
         //test
         //public Twitter GetTweetByDate(DateTime startDate, DateTime endDate)
         //{
         //    DBS dbs = new DBS();
         //    return dbs.GetDate(startDate, endDate);
         //}
+        
     }
 }
