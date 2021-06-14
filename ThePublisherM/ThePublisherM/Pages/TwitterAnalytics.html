@@ -56,10 +56,6 @@
             height: 600px;
         }
 
-        #social_img > img {
-            height: 150px;
-            /*width: 150px;*/
-        }
 
         .wrap {
             justify-content: space-between;
@@ -77,11 +73,6 @@
 
         #hello_user {
             margin-left: 600px;
-        }
-
-        img {
-            height: 400px;
-            width: 600px;
         }
 
         body {
@@ -110,6 +101,10 @@
         .realTime {
             display: flex;
             justify-content: space-around;
+        }
+        .card-body {
+            border-style: outset;
+            text-align:center;
         }
     </style>
     <link href="style.css" rel="stylesheet" />
@@ -275,7 +270,7 @@
 </head>
 <body>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>כאן 11</h1>
+        <img src="../Images/1200px-Kan11Logo.svg.png" width="150" height="100" />
     </div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="#" onclick="document.location='MainPage.html'">ראשי</a>
@@ -314,19 +309,26 @@
             <div class="container-fluid">
                 <div class="row" id=" header_social">
                     <div class="col-sm-4">
-                        <h2>טוויטר</h2>
-                        <h5>ניתוחי אייטמים</h5>
-                        <div id="social_img">
-                            <img src="../Images/social-1834013_1920.png" style="width:150px;" />
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">טוויטר</h2>
+                                <h5 class="card-text">ניתוחי אייטמים</h5>
+                                <img src="../Images/social-1834013_1920.png" width="150" height="150" />
+
+                            </div>
                         </div>
 
                     </div>
                     <div class="col-sm-8">
-                        <h2>צפייה וסקירה של כל האייטמים בזמן אמת</h2>
-                        <h5>ציר הזמן, התגובות, הלייקים, והשיתופים..</h5>
-                        <div id="social_img">
-                            <img src="../Images/arrow-1783284_1920.png" style="width:500px;" />
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">צפייה וסקירה של כל האייטמים בזמן אמת</h2>
+                                <h5 class="card-text">ציר הזמן, התגובות, הלייקים, והשיתופים..</h5>
+                                <img src="../Images/smartphone-586944_1920.jpg" width="500" height="150" />
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
                 <hr>
@@ -341,12 +343,7 @@
                                 <li class="nav-item">
                                     <a class="list-group-item list-group-item-action" href="#" onclick="showFeature()">Likes</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="list-group-item list-group-item-action" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="list-group-item list-group-item-action" href="#">Disabled</a>
-                                </li>
+
                             </ul>
                         </div>
 
@@ -361,27 +358,33 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-12">
-                        <h2>בזמן אמת</h2>
-                        <h5>ציוצים, לייקים ותגובות בזמן אמת..</h5>
-                        <div class="realTime">
 
-                            <div class="addTwitt">
-                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
-                            <div class="follow">
-                                <a href="https://twitter.com/rupi46?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rupi46</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
-                            <div class="mention">
-                                <a href="https://twitter.com/intent/tweet?screen_name=rupi46&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @rupi46</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
-                            <div class="topic">
-                                <a href="https://twitter.com/intent/tweet?button_hashtag=what&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #what</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title"> בזמן אמת</h2>
+                                <h5 class="card-text">ציוצים, לייקים ותגובות בזמן אמת..</h5>
+                                <div class="realTime">
 
+                                    <div class="addTwitt">
+                                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                    <div class="follow">
+                                        <a href="https://twitter.com/rupi46?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rupi46</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                    <div class="mention">
+                                        <a href="https://twitter.com/intent/tweet?screen_name=rupi46&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @rupi46</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                    <div class="topic">
+                                        <a href="https://twitter.com/intent/tweet?button_hashtag=what&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #what</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
@@ -393,272 +396,74 @@
                 <div class="row">
                     <div class="col">
                         <h2>חדשות</h2>
-                        <h5>הציוצים</h5>
-                        <div class="news">
-                            <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
-                                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann_news?ref_src=twsrc%5Etfw">Tweets by kann_news</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class=" row">
+                            <div class="col">
+                                <h5>הציוצים</h5>
+                                <div class="news">
+                                    <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
+                                        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann_news?ref_src=twsrc%5Etfw">Tweets by kann_news</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h5>האהובים</h5>
+                                <div class="likedpost">
+                                    <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
+                                        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann_news/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kann_news</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
+
                     </div>
 
-                    <div class="col">
-                        <h2>חדשות</h2>
-                        <h5>האהובים</h5>
-                        <div class="likedpost">
-                            <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
-                                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann_news/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kann_news</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    
                 </div>
                 <hr>
                 <div class="row">
                     <div class="col">
                         <h2>תכנים כאן 11</h2>
-                        <h5>הציוצים</h5>
-                        <div class="tv_show">
-                            <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
-                                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann?ref_src=twsrc%5Etfw">Tweets by kann</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class=" row">
+                            <div class="col">
+                                <h5>הציוצים</h5>
+                                <div class="tv_show">
+                                    <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
+                                        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann?ref_src=twsrc%5Etfw">Tweets by kann</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="col">
+                                <h5>האהובים</h5>
+                                <div class="tv_show">
+                                    <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
+                                        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kann</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
 
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <h2>תכנים כאן 11</h2>
-                        <h5>האהובים</h5>
-                        <div class="tv_show">
-                            <div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 400px;'>
-                                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/kann/likes?ref_src=twsrc%5Etfw">Tweets Liked by @kann</a>
-                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
                             </div>
-
-
                         </div>
+
                     </div>
 
-
-
-                </div>
+                </div>               
                 <hr>
-                <!--<div class="row">
-                    <div class="col-md-4">
-                        <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-title">Social media Statistics</h4>
-                                <p class="card-category">Last Campaign Performance</p>
-                            </div>
-                            <div class="card-body ">
-                                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-                                <div class="legend">
-                                    <i class="fa fa-circle text-info"></i> Like
-                                    <i class="fa fa-circle text-danger"></i> Share
-                                    <i class="fa fa-circle text-warning"></i> Reply
-                                </div>
-                                <hr>
-                                <div class="stats">
-                                    <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-title">Users Behavior</h4>
-                                <p class="card-category">24 Hours performance</p>
-                            </div>
-                            <div class="card-body ">
-                                <div id="chartHours" class="ct-chart"></div>
-                            </div>
-                            <div class="card-footer ">
-                                <div class="legend">
-                                    <i class="fa fa-circle text-info"></i> Like
-                                    <i class="fa fa-circle text-danger"></i> Share
-                                    <i class="fa fa-circle text-warning"></i> Reply
-                                </div>
-                                <hr>
-                                <div class="stats">
-                                    <i class="fa fa-history"></i> Updated 3 minutes ago
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!--<div class="row">
-                    <div class="col-md-6">
-                        <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-title">2017 Sales</h4>
-                                <p class="card-category">All products including Taxes</p>
-                            </div>
-                            <div class="card-body ">
-                                <div id="chartActivity" class="ct-chart"></div>
-                            </div>
-                            <div class="card-footer ">
-                                <div class="legend">
-                                    <i class="fa fa-circle text-info"></i> Tesla Model S
-                                    <i class="fa fa-circle text-danger"></i> BMW 5 Series
-                                </div>
-                                <hr>
-                                <div class="stats">
-                                    <i class="fa fa-check"></i> Data information certified
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card  card-tasks">
-                            <div class="card-header ">
-                                <h4 class="card-title">Tasks</h4>
-                                <p class="card-category">Backend development</p>
-                            </div>
-                            <div class="card-body ">
-                                <div class="table-full-width">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" value="">
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" value="" checked>
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" value="" checked>
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                                </td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" checked>
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Create 4 Invisible User Experiences you Never Knew About</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" value="">
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Read "Following makes Medium better"</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox" value="" disabled>
-                                                            <span class="form-check-sign"></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Unfollow 5 enemies from twitter</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-link">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-link">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="card-footer ">
-                                <hr>
-                                <div class="stats">
-                                    <i class="now-ui-icons loader_refresh spin"></i> Updated 3 minutes ago
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
+             
             </div>
         </div>
-
-
     </div>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <p>Footer</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <img id="logo_kan" src="../Images/1200px-Kan11Logo.svg.png" width="40" height="40" />
+                <br />
+                <a href="https://www.kan.org.il/">www.kan.org.il</a>
+            </div>
+        </div>
     </div>
 
 </body>

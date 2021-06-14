@@ -115,6 +115,9 @@
         nav.navbar.navbar-expand-sm.bg-dark.navbar-dark {
             direction: rtl;
         }
+        #logo_footer{
+            direction:rtl;
+        }
     </style>
     <script>
         $(document).ready(function () {
@@ -237,7 +240,7 @@
 </head>
 <body>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>כאן 11</h1>
+        <img src="../Images/1200px-Kan11Logo.svg.png" width="150" height="100" />
     </div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="#" onclick="document.location='MainPage.html'">ראשי</a>
@@ -314,7 +317,13 @@
         </div>
     </div>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <p>Footer</p>
+        <div class="row" id="logo_footer">
+            <div class="col-sm-4">
+                <img id="logo_kan" src="../Images/1200px-Kan11Logo.svg.png" width="40" height="40" dir="rtl" />
+                <br />
+                <a href="https://www.kan.org.il/">www.kan.org.il</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

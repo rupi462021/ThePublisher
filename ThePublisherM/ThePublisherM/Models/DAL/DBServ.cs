@@ -172,10 +172,6 @@ namespace ThePublisherM.Models.DAL
             {
                 con = connect("DBConnectionString"); // create a connection to the database using the connection String defined in the web config file
                 
-
-                //String selectSTR = "SELECT * FROM Customers_2021 Where email=" + email + " and password=" + password;
-                //String selectSTR = "SELECT * FROM Customers_2021 Where email= "+"'"+ email +"'"+"+ and password ="+"'"+ password+"'";
-                //String selectSTR = "SELECT * FROM Customers_2021 where email = " + "'" + email + "'" + " and access <> 'NULL' ";
                 String selectSTR = "SELECT * FROM Customers_2021 where email = " + "'" + email + "'";
 
 
