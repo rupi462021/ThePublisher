@@ -1,0 +1,17 @@
+﻿body {
+    background-color: #dee2e6;
+}
+
+.red-star {
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: beige;
+}

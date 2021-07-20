@@ -11,12 +11,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" />
 
-    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+    <!--<link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
+    <!--<script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>-->
+
     <script src="https://apis.google.com/js/api.js"></script>
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
@@ -29,8 +31,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
             crossorigin="anonymous"></script>
-    <script src="../Scripts/jquery-3.4.1.js"></script>
-    <script src="../Scripts/jquery-3.4.1.min.js"></script>
 
     <script src="https://apis.google.com/js/api.js"></script>
 
@@ -44,121 +44,63 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../Scripts/jquery-3.4.1.min.js"></script>
 
-    <style>
-        .card-link {
-            padding: 8px;
-        }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-        .wrap {
-            justify-content: space-between;
-        }
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!--<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>-->
+    <script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+    <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+    <script src="../Scripts/jquery-3.6.0.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
 
-        .logo {
-            overflow: hidden;
-            position: relative;
-            height: 60px;
-            background-color: white;
-            color: #1F6C8B;
-            font-family: Arial;
-        }
 
-        #hello_user {
-            margin-left: 600px;
-        }
-
-        .items {
-            width: 900px;
-            height: 250px;
-            text-align: center;
-            margin: 20px;
-            border: 4px solid black;
-            background-color: aquamarine;
-            font-size: 80%;
-        }
-
-        .search_item {
-            justify-content: space-between;
-            padding: 10px;
-        }
-
-        .content-form {
-            display: flex;
-            justify-content: space-between;
-            padding: 24px;
-        }
-
-        .list-head {
-            padding: 24px 16px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .container {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-        }
-
-        body {
-            direction: rtl;
-            text-align: right;
-        }
-
-        .content-form {
-            display: inline-flex;
-            flex-direction: column;
-            justify-content: space-around;
-            /*height: 500px;*/
-            background-color: lightgray;
-            border: 1px solid #adb5bd;
-            padding: 15px;
-            width: 500px;
-        }
-
-        div.card-body {
-            direction: rtl;
-        }
-
-        textarea {
-            overflow: auto;
-            resize: vertical;
-            width: 400px;
-        }
-
-      
-        #social_button{
-            float:left;
-        }
-        a#twitter-button {
-            text-align: center;
-        }
-    </style>
     <style type="text/css">
-
-        body {
-            background-color: #dee2e6;
+        #itemsDiv {
+            background-color: cadetblue;
         }
 
-        .red-star {
-            color: red;
+        #search_item {
         }
-
-        .form-group {
-            margin-bottom: 1rem;
+        body{
+            text-align:right;
+        }
+        .fa {
             padding: 5px;
+            /*font-size: 30px;*/
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
         }
+            .fa:hover {
+                opacity: 0.7;
+            }
 
-        .container {
-            max-width: 1140px;
-            background-color: beige;
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
         }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        #twitter-button{
+            background-color:white;
+        }
+        
+
     </style>
-
+    <!--<link href="ItemPageStyle.css" rel="stylesheet" />-->
+    <link href="ItemPageStyle.css" rel="stylesheet" />
     <script>
         $(document).ready(function () {
             console.log("ready!");
@@ -258,27 +200,35 @@
 
             //document.getElementById('vid_lbl').innerHTML = arr.GetPlaybackResult.Result;
 
-            document.getElementById('vid_lbl').innerHTML = "http://..";
-            video = `<video id="my-video"
-                                                    class="video-js"
-                                                    controls
-                                                    preload="auto"
-                                                    width="720px"
-                                                    height="264"
-
-
-                                                    data-setup="{}">
-                                                    <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
-
-
-                                                </video>`
+            /*document.getElementById('vid_lbl').innerHTML = "http://..";*/
+            video = `<video id="hls" class="video-js vjs-default-skin" width="400" height="300" controls>
+                <source type="application/x-mpegURL" src="${arr.GetPlaybackResult.Result}">
+                </video>`
             $("#aaa").append(video);
-            console.log("<a href='${ arr.GetPlaybackResult.Result }'></a>");
+            var player = videojs('hls');
+            player.play();
+            //video = `<video id="my-video"
+            //                                                class="video-js"
+            //                                                controls
+            //                                                preload="auto"
+            //                                                width="720px"
+            //                                                height="264"
+
+
+            //                                                data-setup="{}">
+            //                                                <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
+
+
+            //                                            </video>`
+            //$("#aaa").append(video);
+            /*console.log("<a href='${ arr.GetPlaybackResult.Result }'></a>");*/
             //let attst = arr["GetPlaybackResult"].Result;
             //video.src = attst;
             //console.log(attst);
             //var videoUrl = createObjectURL(attst);
             //console.log(videoUrl);
+
+
         }
         function err(err) {
             console.log(err);
@@ -378,12 +328,6 @@
             DataT = data;
             postUrlTwitt = "https://twitter.com/intent/tweet?text=" + document.getElementById('desc-input').value + "&access_token=" + DataT;
             console.log(postUrlTwitt);
-
-            //open in same page
-            /*window.open(postUrlTwitt, '',);*/
-
-            //open in new window
-            /*TwitterWindow = window.open(postUrlTwitt, 'TwitterWindow', width = 600, height = 300);*/
             TwitterWindow = window.open(postUrlTwitt, 'TwitterWindow', true);
 
         }
@@ -395,7 +339,6 @@
             var xml = new XMLHttpRequest();
             xml.open('GET', url, false);
             xml.send(null);
-            //alert(xml.responseText);
             console.log(xml.responseText);
             return xml.responseText;
         }
@@ -461,9 +404,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#" onclick="document.location='videoPage.html'">וידאו</a>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
             </li>
@@ -493,39 +436,35 @@
                 </div>
             </div>
             <div class="col-sm-8">
-                <div class="search_item">
+                <div class="search_video">
 
 
                     <h5>בחר שעת תוכנית</h5>
                     <div class="form-group">
-                        <label for="dealerPhone"><span class="red-star">★ </span>date (In Format yyyy-mm-dd )</label>
+                        <label for="dealerPhone"><span class="red-star">★ </span> תאריך:</label>
                         <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
-                        <input type="tel" class="form-control" placeholder="Enter date" id="dateTime"
+                        <input type="date" class="form-control" placeholder="Enter date" id="dateTime"
                                pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
                                oninvalid="this.setCustomValidity('Phone Number pattern Is Not Valid')"
                                oninput="this.setCustomValidity('')" required />
                     </div>
 
                     <div class="form-group">
-                        <label for="dealerPhone"><span class="red-star">★ </span>start time (In Format hh:mm )</label>
+                        <label for="dealerPhone"><span class="red-star">★ </span>זמן התחלה:</label>
                         <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
-                        <input type="tel" class="form-control" placeholder="Enter start time" id="startTime"
-                               pattern="[0-9]{2}:[0-9]{2}"
-                               oninvalid="this.setCustomValidity('Phone Number pattern Is Not Valid')"
-                               oninput="this.setCustomValidity('')" required />
+                        <input type="time" class="form-control" placeholder="Enter start time" id="startTime" name="startime"
+                               required />
                     </div>
                     <div class="form-group">
-                        <label for="dealerPhone"><span class="red-star">★ </span>end time (In Format hh:mm )</label>
+                        <label for="dealerPhone"><span class="red-star">★ </span>זמן סיום:</label>
                         <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
-                        <input type="tel" class="form-control" placeholder="Enter end time" id="endTime"
-                               pattern="[0-9]{2}:[0-9]{2}"
-                               oninvalid="this.setCustomValidity('Phone Number pattern Is Not Valid')"
-                               oninput="this.setCustomValidity('')" required />
+                        <input type="time" class="form-control" placeholder="Enter end time" id="endTime" name="endtime"
+                               required />
                     </div>
-                    <button id="testg">חיתוך</button>
+                    <button onclick="showVideoTitle()" id="testg">חיתוך</button>
 
                     <div id="aaa">
-                        <!--<a href=""></a>-->
+                       
 
                     </div>
 
@@ -548,25 +487,31 @@
                                 <label for="desc-input">תאור</label>
                                 <textarea id="desc-input" name="desc-input" rows="10" cols="40"></textarea>
                             </div>
-                            
+
                             <div id="social">
-                               
+
                                 <fb:login-button scope="public_profile,email"
                                                  onlogin="checkLoginState();">
                                 </fb:login-button>
 
 
                                 <a id="twitter-button" class="btn btn-block btn-social btn-twitter">
-                                    <i class="fa fa-twitter"></i> Sign in with Twitter
+                                    <i class="fa fa-twitter"></i>Log In
                                 </a>
+
+                                <!--<a class="twitter btn" href="#">
+                                    <div class="twitter-icon btn-icon"></div>
+                                    Login with Twitter
+                                </a>-->
                             </div>
+                                                         
 
-
-                            <button id="saveItem" >Save Item</button>
-                            <button onclick="sendPost('TBD')" id="testBtn">Post Facebook</button>
-                            <button onclick="sendPostInstagram()" id="testBtn">Post Instagram</button>
-                            <button onclick="sendPostTwitt('TBDT')" id="testBtn1">Post Twitter</button>
-                            
+                                <div id="social_groupBTN">
+                                    <button id="saveItem">Save Item</button>
+                                    <button onclick="sendPost('TBD')" id="testBtn" class="fa fa-facebook"></button>
+                                    <button onclick="sendPostInstagram()" id="testBtn" class="fa fa-instagram"></button>
+                                    <button onclick="sendPostTwitt('TBDT')" id="testBtn1" class="fa fa-twitter"></button>
+                                </div>                    
 
                         </div>
                     </div>

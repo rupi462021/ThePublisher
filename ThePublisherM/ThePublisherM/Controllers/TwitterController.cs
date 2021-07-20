@@ -26,7 +26,13 @@ namespace ThePublisherM.Controllers
         //{
         //    auth
         //}
-        
+        //Public aysnc Task<Type> Get()
+        //{
+        //    TwitterModel tm = new TwitterModel();
+        //    Return await tm.test();
+        //}
+
+
         public string Get()
         {
             Twitter tw = new Twitter();

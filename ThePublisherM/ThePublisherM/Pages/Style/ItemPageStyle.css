@@ -1,0 +1,108 @@
+﻿body {
+    background-color: #dee2e6;
+}
+
+.red-star {
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: beige;
+}
+.card-link {
+    padding: 8px;
+}
+
+.wrap {
+    justify-content: space-between;
+}
+
+.logo {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+    background-color: white;
+    color: #1F6C8B;
+    font-family: Arial;
+}
+
+#hello_user {
+    margin-left: 600px;
+}
+
+.items {
+    width: 900px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+    border: 4px solid black;
+    background-color: aquamarine;
+    font-size: 80%;
+}
+
+.search_item {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.content-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.list-head {
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.content-form {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*height: 500px;*/
+    background-color: lightgray;
+    border: 1px solid #adb5bd;
+    padding: 15px;
+    width: 500px;
+}
+
+div.card-body {
+    direction: rtl;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 400px;
+}
+
+
+#social_button {
+    float: left;
+}
+
+a#twitter-button {
+    text-align: center;
+}
