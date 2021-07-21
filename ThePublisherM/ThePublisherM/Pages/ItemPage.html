@@ -60,7 +60,7 @@
 
     <style type="text/css">
         #itemsDiv {
-            background-color: cadetblue;
+            background-color: #aecfd0;
         }
 
         #search_item {
@@ -92,11 +92,24 @@
         .fa-instagram {
             background: #125688;
             color: white;
+            
         }
-        #twitter-button{
-            background-color:white;
+        #twitter-button {
+            background-color: dodgerblue;
+            color: white;
+            border-radius: 5px;
+            width: fit-content;
         }
-        
+        .btn {
+            color: white;
+            
+        }
+        button#saveItem {
+            border-radius: 8px;
+            background-color:whitesmoke;
+            color: black;
+            font-size: medium;
+        }
 
     </style>
     <!--<link href="ItemPageStyle.css" rel="stylesheet" />-->
@@ -114,7 +127,7 @@
                     console.log(twitter.me());
                 });
             });
-
+           
             checkUser();
             $("#logOut").click(function () {
                 document.location = "login.html";
@@ -123,6 +136,7 @@
             $("#getShow").click(showRend);
             $("#saveItem").click(saveItemD);
             $("#testg").click(showVideoTitle);
+            /*$("#homepage").submit(sendUrl);*/
         });
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -133,6 +147,13 @@
                 tastStr = [];
             }
         }
+        //function sendUrl() {
+        //    var home = $("#homepage").val();
+        //    console.log(home);
+        //    video = `<video id="hls" class="video-js vjs-default-skin" width="400" height="300" controls>
+        //        <source type="application/x-mpegURL" src="${home}">
+        //        </video>`
+        //}
         //in Success geting the show details from the xml file
         function showRend() {
             console.log("in rend");
@@ -436,11 +457,13 @@
                 </div>
             </div>
             <div class="col-sm-8">
+                <p>בחר קובץ להעלאה:</p>
                 <div class="search_video">
 
 
                     <h5>בחר שעת תוכנית</h5>
                     <div class="form-group">
+
                         <label for="dealerPhone"><span class="red-star">★ </span> תאריך:</label>
                         <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
                         <input type="date" class="form-control" placeholder="Enter date" id="dateTime"
@@ -450,91 +473,89 @@
                     </div>
 
                     <div class="form-group">
+
                         <label for="dealerPhone"><span class="red-star">★ </span>זמן התחלה:</label>
                         <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
                         <input type="time" class="form-control" placeholder="Enter start time" id="startTime" name="startime"
                                required />
                     </div>
+
                     <div class="form-group">
                         <label for="dealerPhone"><span class="red-star">★ </span>זמן סיום:</label>
-                        <!--<label for="dealerPhone">Phone Number (In Format ddd-ddddddd )</label>-->
                         <input type="time" class="form-control" placeholder="Enter end time" id="endTime" name="endtime"
                                required />
                     </div>
+
+                    
                     <button onclick="showVideoTitle()" id="testg">חיתוך</button>
 
                     <div id="aaa">
-                       
+
 
                     </div>
 
-                </div>
-                <div id="frame" class="search_item">
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col">
-                        <div class="content-form">
-                            <div>
-                                <label for="title-input">שם תכנית</label>
-                                <input id="title-input" type="text" name="title-input" value="" /><br>
-                                <label for="id-input">מספר תכנית</label>
-                                <input id="id-input" type="text" name="id-input" value="" />
-                                <br />
-                                <label id="vid_lbl"></label>
-                            </div>
-                            <div>
-                                <label for="desc-input">תאור</label>
-                                <textarea id="desc-input" name="desc-input" rows="10" cols="40"></textarea>
-                            </div>
+                    <div id="frame" class="search_item">
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="content-form">
+                                <div>
+                                    <label for="title-input">שם תכנית</label>
+                                    <input id="title-input" type="text" name="title-input" value="" /><br>
+                                    <label for="id-input">מספר תכנית</label>
+                                    <input id="id-input" type="text" name="id-input" value="" />
+                                    <br />
+                                    <label id="vid_lbl"></label>
+                                </div>
+                                <div>
+                                    <label for="desc-input">תאור</label>
+                                    <textarea id="desc-input" name="desc-input" rows="10" cols="40"></textarea>
+                                </div>
 
-                            <div id="social">
+                                <div id="social">
 
-                                <fb:login-button scope="public_profile,email"
-                                                 onlogin="checkLoginState();">
-                                </fb:login-button>
+                                    <fb:login-button scope="public_profile,email"
+                                                     onlogin="checkLoginState();">
+                                    </fb:login-button>
 
+                                    <button id="twitter-button">Log In<i class="fa fa-twitter"></i> </button>
+                                    
+                                </div>
 
-                                <a id="twitter-button" class="btn btn-block btn-social btn-twitter">
-                                    <i class="fa fa-twitter"></i>Log In
-                                </a>
-
-                                <!--<a class="twitter btn" href="#">
-                                    <div class="twitter-icon btn-icon"></div>
-                                    Login with Twitter
-                                </a>-->
-                            </div>
-                                                         
 
                                 <div id="social_groupBTN">
                                     <button id="saveItem">Save Item</button>
                                     <button onclick="sendPost('TBD')" id="testBtn" class="fa fa-facebook"></button>
                                     <button onclick="sendPostInstagram()" id="testBtn" class="fa fa-instagram"></button>
                                     <button onclick="sendPostTwitt('TBDT')" id="testBtn1" class="fa fa-twitter"></button>
-                                </div>                    
+                                </div>
 
+                            </div>
                         </div>
                     </div>
+                    <br />
+
                 </div>
-                <br />
-            </div>
         </div>
+    </div>
+
         <div class="row">
             <div class="col-sm-4">
             </div>
             <div class="col-sm-8">
             </div>
         </div>
-    </div>
+    
 
-    <div class="jumbotron text-center" style="margin-bottom:0">
-        <div class="row">
-            <div class="col-sm-4">
-                <img id="logo_kan" src="../Images/1200px-Kan11Logo.svg.png" width="40" height="40" />
-                <br />
-                <a href="https://www.kan.org.il/">www.kan.org.il</a>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img id="logo_kan" src="../Images/1200px-Kan11Logo.svg.png" width="40" height="40" />
+                    <br />
+                    <a href="https://www.kan.org.il/">www.kan.org.il</a>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
