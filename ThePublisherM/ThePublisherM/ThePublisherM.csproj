@@ -56,6 +56,24 @@
     <Reference Include="EO.WebEngine, Version=21.1.43.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
       <HintPath>..\packages\EO.WebBrowser.21.1.43\lib\EO.WebEngine.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Apis, Version=1.52.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.52.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.52.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.52.0\lib\net461\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.52.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.52.0\lib\net461\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.52.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.52.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.52.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.52.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.YouTube.v3, Version=1.52.0.2378, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.YouTube.v3.1.52.0.2378\lib\net45\Google.Apis.YouTube.v3.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
     </Reference>
@@ -313,6 +331,7 @@
     <Compile Include="Controllers\SavedItemController.cs" />
     <Compile Include="Controllers\TwitterController.cs" />
     <Compile Include="Controllers\VideosController.cs" />
+    <Compile Include="Controllers\YoutubeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -332,6 +351,7 @@
     <Compile Include="Models\XMLService.cs" />
     <Compile Include="Models\XMLServiceItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\youtubeUpload.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\xmlfiles\HEBREW-מבזק טלויזיה-2021-03-15_00-00.xml" />
@@ -481,6 +501,7 @@
     <Content Include="Scripts\vjs-lang\ru.js" />
     <Content Include="Scripts\vjs-lang\uk.js" />
     <Content Include="Scripts\vjs-lang\zh.js" />
+    <Content Include="utils\testing.mp4" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -495,6 +516,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="utils\client_secret.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\img\" />

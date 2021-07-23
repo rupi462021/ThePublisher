@@ -54,6 +54,11 @@
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>-->
     <script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
     <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <script src="../Scripts/jquery-3.6.0.js"></script>
     <script src="../Scripts/jquery-3.6.0.min.js"></script>
 
@@ -65,9 +70,11 @@
 
         #search_item {
         }
-        body{
-            text-align:right;
+
+        body {
+            text-align: right;
         }
+
         .fa {
             padding: 5px;
             /*font-size: 30px;*/
@@ -77,6 +84,7 @@
             margin: 5px 2px;
             border-radius: 50%;
         }
+
             .fa:hover {
                 opacity: 0.7;
             }
@@ -85,32 +93,34 @@
             background: #3B5998;
             color: white;
         }
+
         .fa-twitter {
             background: #55ACEE;
             color: white;
         }
+
         .fa-instagram {
             background: #125688;
             color: white;
-            
         }
+
         #twitter-button {
             background-color: dodgerblue;
             color: white;
             border-radius: 5px;
             /*width: fit-content;*/
         }
+
         .btn {
             color: white;
-            
         }
+
         button#saveItem {
             border-radius: 8px;
-            background-color:whitesmoke;
+            background-color: whitesmoke;
             color: black;
             font-size: medium;
         }
-
     </style>
     <!--<link href="ItemPageStyle.css" rel="stylesheet" />-->
     <link href="ItemPageStyle.css" rel="stylesheet" />
@@ -128,7 +138,7 @@
                 });
             });
             //http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
-           
+
             checkUser();
             $("#logOut").click(function () {
                 document.location = "login.html";
@@ -137,7 +147,10 @@
             $("#getShow").click(showRend);
             $("#saveItem").click(saveItemD);
             $("#testg").click(showVideoTitle);
-           
+            $("#testBtnYou").click(sendToYoutbe);
+
+
+
         });
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -148,7 +161,7 @@
                 tastStr = [];
             }
         }
-        
+
         function showRend() {
             console.log("in rend");
             let api = "../api/Item";
@@ -192,7 +205,7 @@
             var desc = $("p.scriptC");
             $("#title-input").val(tit[by].innerHTML);
             $("#id-input").val(sid[by].innerHTML);
-            $("#desc-input").val(desc[by].innerHTML + document.getElementById('vid_lbl').innerHTML+"  "+ "https://www.youtube.com/watch?v=SuoHOk5bsmM&list=PLKU94MaFRcfKSCpsth7MFj8osiuMIaEtv");            
+            $("#desc-input").val(desc[by].innerHTML + document.getElementById('vid_lbl').innerHTML + "  " + "https://www.youtube.com/watch?v=SuoHOk5bsmM&list=PLKU94MaFRcfKSCpsth7MFj8osiuMIaEtv");
         }
         /*chance*/
         let arr = [];
@@ -226,21 +239,21 @@
             //var player = videojs('hls');
             //player.play();
             video = `<video id="my-video"
-                                                            class="video-js"
-                                                            controls
-                                                            preload="auto"
-                                                            width="720px"
-                                                            height="264"
+                                                                class="video-js"
+                                                                controls
+                                                                preload="auto"
+                                                                width="720px"
+                                                                height="264"
 
 
-                                                            data-setup="{}">
-                                                            <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
+                                                                data-setup="{}">
+                                                                <source src=${arr.GetPlaybackResult.Result} type="video/mp4" />
 
 
-                                                        </video>`
+                                                            </video>`
             $("#aaa").append(video);
             $("#bbb").append("<a href='http://10.120.17.160/videos/API/7/10.10.4.220i239.1.2.1_1234_931_48efceb13d3146b49179cac692230cd1.m3u8'>The video</a>");
-            
+
         }
         function err(err) {
             console.log(err);
@@ -395,6 +408,25 @@
                 statusChangeCallback(response);
             });
         }
+        function sendToYoutbe() {
+            console.log("in rend");
+
+            let description = $("#desc-input").val();
+            let title = $("#title-input").val();
+            console.log(description);
+            console.log(title);
+            let api = "../api/youtube?title=" + title + "&description=" + description;
+            ajaxCall("GET", api, "", suc1, err1);
+
+        }
+        function suc1(data) {
+            swal("Added Successfuly!", "Great Job", "success");
+            console.log(data);
+        }
+        function err1(err) {
+            swal("Error", "Try Again");
+            console.log(err);
+        }
 
 
     </script>
@@ -519,7 +551,7 @@
                                     <button onclick="sendPost('TBD')" id="testBtn" class="fa fa-facebook"></button>
                                     <button onclick="sendPostInstagram()" id="testBtn" class="fa fa-instagram"></button>
                                     <button onclick="sendPostTwitt('TBDT')" id="testBtn1" class="fa fa-twitter"></button>
-                                    <button onclick="sendYouTube('TB')" id="testBtnYou" class="fa fa-youtube-play" style="color:red"></button>
+                                    <button onclick="sendToYoutbe()" id="testBtnYou" class="fa fa-youtube-play" style="color:red"></button>
                                 </div>
 
                             </div>
