@@ -1,4 +1,4 @@
-﻿body {
+﻿/*body {
     background-color: #dee2e6;
 }
 
@@ -9,9 +9,16 @@
 .form-group {
     margin-bottom: 1rem;
     padding: 5px;
+    
 }
 
 .container {
     max-width: 1140px;
     background-color: beige;
 }
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    display: flex;
+}
+*/

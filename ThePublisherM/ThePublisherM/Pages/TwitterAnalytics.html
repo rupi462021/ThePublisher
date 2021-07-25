@@ -86,6 +86,7 @@
 
         #showTwitterItems {
             scroll-behavior: smooth;
+            
         }
 
         .row {
@@ -104,8 +105,12 @@
             justify-content: space-around;
         }
         .card-body {
-            border-style: outset;
+            border-style: groove;
             text-align:center;
+        }
+        .col {
+            border-radius: 20px;
+            border-style: groove;
         }
     </style>
     <link href="style.css" rel="stylesheet" />
@@ -129,34 +134,14 @@
             $('a').click(function () {
                 $('a').removeClass('active');
                 $(this).addClass('active');
-                /*let a = $(this).text();*/
             });
-
-            /*$("#test").click(GetTweets);*/
-            /*RequestToken();*/
-            /*$("#getData").click(showData);*/
-            /*$("#select_f").change(selectFeature);*/
-            //demo.initDashboardPageCharts();
-            //demo.showNotification();
             $("#logOut").click(function () {
-                document.location = "login.html";
+                document.location = "log.html";
                 localStorage.clear();
             });
 
 
         });
-
-        //function RequestToken() {
-        //    console.log("in Request!");
-        //    let apire = "https://api.twitter.com/oauth/request_token";
-        //    ajaxCall("POST", apire, "", getTokenS, getTokenE);
-        //}
-        //function getTokenS(data) {
-        //    console.log(data);
-        //}
-        //function getTokenE(err) {
-        //    console.log(err);
-        //}
 
         function checkUser() {
             if (localStorage["userObject"] != null) {
@@ -196,16 +181,11 @@
         }
 
         function showFeature() {
-            //tt = $(this).text();
-            //kkk = $('a').text();
-            //valy = $(".list-group-item").text();
             $("#showTwitterItems").empty();
             $("#showTwitterItems").html("");
             str = "";
             str += "<h5>Likes</h5>";
             str += "<div id='scroll' style='overflow-y: scroll; overflow-x: hidden; height: 450px;'>";
-
-            //str += "<a class='twitter-timeline' href='https://twitter.com/rupi46/" + data + "?ref_src=twsrc%5Etfw'>Tweets Liked by @rupi46</a>";
 
             str += "<a class='twitter-timeline' data-theme='dark' href='https://twitter.com/rupi46/likes?ref_src=twsrc%5Etfw'>Tweets Liked by @rupi46</a>";
             str += "<script async src='https://platform.twitter.com/widgets.js' charset='utf-8'>";
@@ -215,37 +195,11 @@
             console.log(str);
                  
         }
-        //function checkData() {
-        //    let dateTwitt = $(".timeline-Tweet-metadata").innerText;
-        //    let idTwitt = $(".TweetAction").attributes["data-scribe"].ownerElement.search;
-        //    let idTwitter = $(".TweetAction").attributes["data-scribe"].ownerElement.search.split("=")[1];
-            
-        //}
+
 
 
         function GetTweets() {
             console.log("in testttt!");
-                        /*let endpointURL = "https://api.twitter.com/2/tweets?id="*/;
-            //let endpointURL = "api.twitter.com/2/tweets?id=";
-            ///*tweet_ids = "1261326399320715264,1278347468690915330";*/
-            // params = {
-            //     "id": "1399325875796119552", // Edit Tweet IDs to look up
-            //     "tweet.fields": "created_at", // Edit optional query parameters here
-            //    "user.fields": "created_at" // Edit optional query parameters here
-            // }
-
-            //$.ajax({
-            //    url: endpointURL,
-            //    data: data,
-            //    success: success,
-            //    dataType: dataType
-            //});
-
-
-
-
-            /*let apiTw = "api.twitter.com/1.1/statuses/user_timeline.json?screen_name=rupi46";*/
-            /*let apiTw = "/2/users/{id}";*/
             let apiz = "https://api.twitter.com/2/tweets";
             ajaxCall("POST", apiz, "", getTSuccess, getTError);
         }
@@ -255,18 +209,6 @@
         function getTError(err) {
             console.log(err);
         }
-
-        //function RequestDataSuccess(data) {
-        //console.log(data);
-        //var xml = new XMLHttpRequest();
-        //xml.open('GET', url, false);
-        //xml.send(null);
-        //alert(xml.responseText);
-        //return xml.responseText;
-        //}
-        //function RequestDataError(err) {
-        //console.log(err);
-        //}
     </script>
 </head>
 <body>
@@ -285,9 +227,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="document.location='videoPage.html'">וידאו</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
@@ -348,12 +287,10 @@
                             </ul>
                         </div>
 
-                        <!--<button id="getData" type="button" class="btn btn-primary">Get Twitter <i class="fa fa-twitter-square"></i></button>-->
                     </div>
                     <div class="col-sm-6" id="showTwitterItems">
 
                     </div>
-                    <!--<button id="test">Testttt</button>-->
 
                 </div>
                 <hr>

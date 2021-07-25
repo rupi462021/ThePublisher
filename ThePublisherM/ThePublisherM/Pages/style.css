@@ -13,6 +13,7 @@
 #logo_kan {
     height: 40px;
     width: 60px;
+    text-align:center;
 }
 
 .h1, h1 {
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: .3rem;
 }
 .content-form {
-    display: inline-flex;
+    /*display: inline-flex;*/
     flex-direction: column;
     justify-content: space-around;
     height: 600px;

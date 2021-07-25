@@ -19,10 +19,12 @@
     margin-left: 200px;
 }
 
-/*img {*/
-/*height: 400px;*/
-/*width: 600px;
-        }*/
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border-style: groove;
+}
 
 body {
     direction: rtl;
@@ -55,6 +57,8 @@ body {
 
 .card-body {
     border-style: outset;
+    padding: 30px;
+    text-align:center;
 }
 
 #title_p {

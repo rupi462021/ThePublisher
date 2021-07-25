@@ -14,17 +14,82 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" />
-   
-    <!--<link href="MainPageStyle.css" rel="stylesheet" />-->
+
     <link href="MainPageStyle.css" rel="stylesheet" />
     <script src="../Scripts/ajaxCalls.js"></script>
+    <style type="text/css">
+
+        .wrap {
+            justify-content: space-between;
+        }
+
+        .logo {
+            overflow: hidden;
+            text-align: left;
+            position: relative;
+            height: 60px;
+            background-color: white;
+            color: #1F6C8B;
+            font-family: Arial;
+        }
+
+        #hello_user {
+            margin-left: 200px;
+        }
+
+
+        img {
+            vertical-align: middle;
+            border-style: none;           
+        }
+
+        body {
+            direction: rtl;
+        }
+
+        .container {
+            text-align: right;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+
+        #cards_short {
+            padding: 15px;
+        }
+
+        .fa {
+            padding: 5px;
+        }
+
+        #social_card {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .card-body {
+            border-style: outset;
+            padding: 30px;
+            text-align: center;
+        }
+
+        #title_p {
+            text-align: center;
+        }
+
+        #header {
+            padding: 10px;
+        }
+
+
+    </style>
     <script>
 
         $(document).ready(function () {
             console.log("ready!");
             checkUser();
             $("#logOut").click(function () {
-                document.location = "login.html";
+                document.location = "log.html";
                 localStorage.clear();
             });
         });
@@ -58,9 +123,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="document.location='SavedItems.html'">אייטמים שנשמרו</a>
                 </li>
-                <!--<li class="nav-item">
-                    <a class="nav-link" href="#" onclick="document.location='videoPage.html'">וידאו</a>
-                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="document.location='Managerlogin.html'">כניסת מנהל</a>
                 </li>
@@ -81,18 +143,16 @@
     <div class="container" style="margin-top:20px">
         <div class="row" id="header">
             <div class="col-9" id="title_p">
-                <h1>המפבלשת</h1>
-                <img src="../Images/icon-2486501_1920.png"  width="600" />
+                <img src="../Images/pexels-photo-1851415.jpeg" width="500" />
             </div>
-
+            
             <div class="col-3">
                 <h5>האחרונים בטוויטר</h5>
-                <div id="scroll" style="overflow-y:scroll; overflow-x:hidden; height:400px;">
+                <div id="scroll" style="overflow-y:scroll; overflow-x:hidden; height:400px; border-style: groove;">
                     <a class="twitter-timeline" href="https://twitter.com/rupi46?ref_src=twsrc%5Etfw">Tweets by rupi46</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
-
 
 
         </div>
@@ -120,21 +180,12 @@
                 </div>
             </div>
 
-            <!--<div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title"> וידאו <i style='font-size:24px' class='fas'>&#xf03d;</i></h4>
-                        <p class="card-text">מקטעי הווידאו שנוצרו</p>
-                        <a href="videoPage.html" class="card-link">עבור</a>
-                    </div>
-                </div>
-            </div>-->
         </div>
         <hr>
         <div class="row" id="social_card">
             <div class="col">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" id="social_center">
                         <h4 class="text-uppercase mb-4">ברשתות החברתיות</h4>
                         <a href="https://twitter.com/kann_news"><i style="font-size:30px" class="fa">&#xf081;</i></a>
                         <a href="https://www.youtube.com/c/KAN11NEWS/featured"><i style="font-size:30px" class="fa">&#xf167;</i></a>
@@ -144,26 +195,10 @@
                 </div>
             </div>
 
-            <!--<div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="text-uppercase mb-4">מיקום</h4>
-                    <h6>בית הדפוס 32 (כנפי נשרים 23), ירושלים</h6>
-                    <h6>יונה קרמנצקי 6, ת"א</h6>
-                    <h6>יהושע הצורף 9, באר שבע</h6>
-                    <h6>ח'ורי 2 - מגדל הנביאים, חיפה</h6>
-                    <h6>076-8098000</h6>
-                </div>
-            </div>
-            </div>-->
+
         </div>
         <br />
-        <!--<div class="row">
-        <div class="col">
-            <h2>המפבלשת</h2>
-            <p>יצירה ועריכה של אייטמים, והפצה לרשתות החברתיות</p>
-        </div>
-    </div>-->
+     
 
     </div>
     <div class="jumbotron text-center" style="margin-bottom:0">
