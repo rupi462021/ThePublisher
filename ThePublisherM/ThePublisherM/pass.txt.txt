@@ -1,0 +1,25 @@
+Login page:
+User Name:                  Password:
+edvireut@gmail.com          Re123456
+silva.haham@gmail.com       Sh123456
+
+Manager Acces:
+User Name:                  Password:
+edvireut@gmail.com          Re123456
+
+
+facebook:
+User Name:                  Password:
+testhaham@gmail.com         fu6x9npi
+
+
+instagram:
+User Name:                  Password:
+rup_chek                    SRS123456  (Login by user name)
+
+twitter:
+User Name:                  Password:
+rupi46                      ruppin46
+
+
+

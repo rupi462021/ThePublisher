@@ -423,6 +423,7 @@
     <Content Include="Pages\SavedItems.html" />
     <Content Include="Pages\style.css" />
     <Content Include="Pages\videoPage.html" />
+    <Content Include="pass.txt.txt" />
     <Content Include="Scripts\ajaxCalls.js" />
     <Content Include="Scripts\ajaxCallsWithKey.js" />
     <Content Include="Scripts\ajaxjs.js" />
